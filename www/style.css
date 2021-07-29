@@ -1,0 +1,220 @@
+html{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.topMenu{
+background: #7692f3;
+height: 55px;
+width: 1535px;
+position: fixed;
+top: 0px;
+left: 0px; 
+z-index: 10;
+}
+.nameText{
+font-size: 20px;
+font-family: monospace;
+font-weight: bold;
+}
+.name{
+position: absolute;
+top: -4px;
+left: 160px;
+}
+.uslugiText{
+font-size: 20px;
+font-family: monospace;
+font-weight: bold;
+}
+.uslugi{
+position: absolute;
+top: -4px;
+left: 910px;
+}
+.otziviText{
+font-size: 20px;
+font-family: monospace;
+font-weight: bold;
+}
+.otzivi{
+position: absolute;
+top: -4px;
+left: 1060px;
+}
+.contactText{
+font-size: 20px;
+font-family: monospace;
+font-weight: bold;
+}
+.contact{
+position: absolute;
+top: -4px;
+left: 1210px;
+}
+.threeSlova{
+    position: fixed;
+    top: 0px;
+    left: -20px;
+}
+.hello{
+  position: absolute;
+  top: 110px;
+    left: 160px;
+}
+.helloText{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: monospace;
+}
+.mainTextBlock{
+  position: absolute;
+  top: 210px;
+    left: 160px;
+}
+.mainText{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: monospace;
+}
+.input{
+    position: absolute;
+    top: 350px;
+    left: 155px;
+}
+.imgInput{
+    height: 70px;
+    width: 220px;
+}
+.mainPhotoBlock{
+    position: absolute;
+    top: 120px;
+    left: 770px;
+}
+.imgMainPhoto{
+    width: 600px;
+    height: 330px;
+}
+.line{
+    position: absolute;
+    top: 600px;
+    left: 0px;
+}
+.rezumePicter{
+    position: absolute;
+    top: 730px;
+    left: 620px;
+}
+.OSebeBlock{
+    position: relative;
+    top: 620px;
+    left: 670px;
+}
+.OSebe{
+    font-family: monospace;
+    font-size: 32px;
+    font-weight: bold;
+}
+.textNemnogo{
+    position: absolute;
+    top: 1020px;
+    left: 360px;
+}
+.picterNemnogo{
+    height: 260px;
+    width: 890px;
+}
+.dostoinstva{
+    position: absolute;
+    top: 1400px;
+    left: 230px;
+}
+.picterDostoinstva{
+    height: 410px;
+    width: 1030px;
+}
+.nameCalcBlock{
+    position: relative;
+    top: 1860px;
+    left: 565px;
+    z-index: 9;
+}
+.nameCalcText{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 32px;
+}
+.cost{
+    position: absolute;
+    top: 2060px;
+    left: 400px;
+}
+.costImg{
+    height: 500px;
+    width: 730px;
+}
+.otziv{
+    position: absolute;
+    top: 2660px;
+    left: 730px;
+}
+.otzivText{
+    font-family: monospace;
+    font-size: 32px;
+    font-weight: bold;
+}
+.otzivImgBlock{
+    position: absolute;
+    top: 2770px;
+    left: 527px;
+}
+.otzivImg{
+    height: 370px;
+    width: 515px;
+}
+.bacgraundDown{
+    position: absolute;
+    top: 3300px;
+    left: 0px;
+}
+.rightDown{
+    position: absolute;
+    top: 3430px;
+    left: 800px;
+}
+.rightDownImg{
+    height: 655px;
+    width: 480px;
+}
+.leftDown{
+    position: absolute;
+    top: 3430px;
+    left: 405px;
+}
+.leftDownImg{
+     height: 655px;
+     width: 450px;
+}
+.downWindow{
+    position: absolute;
+    top: 0px;
+    left: -140px;
+}
+.topBlock{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.centrBlock{
+    position: absolute;
+    left: -60px;
+}
+.bacgraundDownImg{
+    height: 920px;
+    width: 100%;
+}
