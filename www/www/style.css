@@ -1,0 +1,1299 @@
+html{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.topMenu{
+background: #7692f3;
+height: 55px;
+width: 1665px;
+position: fixed;
+top: 0px;
+left: 0px; 
+z-index: 10;
+}
+.nameText{
+-moz-user-select: none;
+-khtml-user-select: none;
+-webkit-user-select: none;
+user-select: none;
+font-size: 20px;
+font-family: monospace;
+font-weight: bold;
+animation-name: move;
+animation-duration: 1s;
+}
+.name{
+position: absolute;
+top: -4px;
+left: 160px;
+}
+.uslugiText{
+opacity: 0;
+animation-fill-mode:forwards;
+margin-left: 30px;
+-moz-user-select: none;
+-khtml-user-select: none;
+-webkit-user-select: none;
+user-select: none;
+width: 200px;
+font-size: 20px;
+font-family: monospace;
+font-weight: bold;
+animation-name: move;
+animation-duration: 1s;
+animation-delay: 0.1s;
+}
+.uslugiText:hover{
+    color: white;
+    text-decoration: underline;
+}
+.otziviText:hover{
+    color: white;
+    text-decoration: underline;
+}
+.contactText:hover{
+    color: white;
+    text-decoration: underline;
+}
+@keyframes move{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.uslugi{
+position: absolute;
+top: -4px;
+left: 924px;
+}
+.otziviText{
+opacity: 0;
+animation-fill-mode:forwards;
+margin-left: 36px;
+-moz-user-select: none;
+-khtml-user-select: none;
+-webkit-user-select: none;
+user-select: none;
+font-size: 20px;
+font-family: monospace;
+font-weight: bold;
+animation-name: move;
+animation-duration: 1s;
+animation-delay: 0.2s;
+}
+.otzivi{
+position: absolute;
+top: -4px;
+left: 1060px;
+}
+.contactText{
+opacity: 0;
+animation-fill-mode:forwards;
+margin-left: 22px;
+-moz-user-select: none;
+-khtml-user-select: none;
+-webkit-user-select: none;
+ user-select: none;
+font-size: 20px;
+font-family: monospace;
+font-weight: bold;
+animation-name: move;
+animation-duration: 1s;
+animation-delay: 0.3s;
+}
+.contact{
+position: absolute;
+top: -4px;
+left: 1196px;
+}
+.threeSlova{
+    position: fixed;
+    top: 0px;
+    left: -20px;
+}
+.hello{
+  position: absolute;
+  top: 110px;
+    left: 160px;
+}
+.helloText{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: monospace;
+}
+.mainTextBlock{
+  position: absolute;
+  top: 210px;
+    left: 160px;
+}
+.mainText{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: monospace;
+}
+.input{
+    position: absolute;
+    top: 360px;
+    left: 170px;
+    height: 60px;
+    width: 210px;
+    background: #544e58;
+    clip-path: polygon(20% 0%, 100% 0%, 80% 100%,0% 100%);
+    transition-duration: 0.5s;
+}
+.input:hover{
+    transition-duration: 0.5s;
+    left: 120px;
+    width: 310px;
+}
+.inputTextTop{
+    pointer-events: none;
+    z-index: 3;
+    position: absolute;
+    top: 379px;
+    left: 205px;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+.imgInputTop{
+    position: absolute;
+    top: -10px;
+    left: 140px;
+}
+.imgInput{
+    height: 70px;
+    width: 220px;
+}
+.mainPhotoBlock{
+    position: absolute;
+    top: 150px;
+    left: 1500px;
+    animation-fill-mode:forwards;
+    animation-name: movePhoto;
+    animation-duration: 1s;
+    animation-delay: 0.4s;
+    
+}
+.imgMainPhoto{
+    width: 600px;
+    height: 330px;
+}
+@keyframes movePhoto{
+    0%{
+       left: 1500px; 
+    }
+    100%{
+      left: 850px;  
+    }
+}
+.line{
+    position: absolute;
+    top: 600px;
+    left: 0px;
+}
+.rezumePicter{
+    position: absolute;
+    top: 730px;
+    left: 620px;
+}
+.OSebeBlock{
+    position: relative;
+    top: 620px;
+    left: 670px;
+}
+.OSebe{
+    font-family: monospace;
+    font-size: 32px;
+    font-weight: bold;
+}
+.textNemnogo{
+    position: absolute;
+    top: 1020px;
+    left: 360px;
+}
+.picterNemnogo{
+    height: 260px;
+    width: 890px;
+}
+.dostoinstva{
+    position: absolute;
+    top: 1400px;
+    left: 230px;
+}
+.picterDostoinstva{
+    height: 390px;
+    width: 560px;
+}
+.nameCalcBlock{
+    position: relative;
+    top: 1860px;
+    left: 565px;
+    z-index: 9;
+}
+.nameCalcText{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 32px;
+}
+.otziv{
+    position: absolute;
+    top: 2600px;
+    left: 730px;
+}
+.otzivText{
+    font-family: monospace;
+    font-size: 32px;
+    font-weight: bold;
+}
+.otzivImgBlock_1{
+    position: absolute;
+    top: 2720px;
+    left: 530px;
+}
+.otzivImgBlock_2{
+    position: absolute;
+    top: 2720px;
+    left: 1169px;
+}
+.otzivImg_1{
+    height:350px;
+    width: 515px;
+}
+.otzivImg_2{
+    height:501px;
+    width: 637px;
+}
+.bacgraundDown{
+    position: absolute;
+    top: 4320px;
+    left: 0px;
+}
+.otzivImgBlock_3{
+    position: absolute;
+    top: 2720px;
+    left: 1169px;
+}
+.otzivImg_3{
+    height:506px;
+    width: 640px;
+}
+.rightDown{
+    position: absolute;
+    top: 3430px;
+    left: 800px;
+}
+.rightDownImg{
+    height: 655px;
+    width: 480px;
+}
+.leftDown{
+    position: absolute;
+    top: 3430px;
+    left: 405px;
+}
+.leftDownImg{
+     height: 655px;
+     width: 450px;
+}
+.downWindow{
+    position: absolute;
+    top: 1000px;
+    left: -50px;
+}
+.topBlock{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.centrBlock{
+    position: absolute;
+    left: -20px;
+}
+.bacgraundDownImg{
+    height: 920px;
+    width: 160%;
+}
+.inputNameText{
+    position: absolute;
+    top: 3578px;
+    left: 462px;
+}
+.inputNameForm{
+    height: 34px;
+    width: 351px;
+    background: rgba(204, 204, 204, 0.79);
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    font-size: 26px;
+    font-family: monospace;
+}
+.inputEmailText{
+    position: absolute;
+    top: 3660px;
+    left: 462px;
+}
+.inputEmailForm{
+    height: 34px;
+    width: 351px;
+    background: rgba(204, 204, 204, 0.79);
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    font-size: 26px;
+    font-family: monospace;
+}
+.inputLateText{
+    position: absolute;
+    top: 3739px;
+    left: 462px;
+}
+.inputLateForm{
+    height: 116px;
+    width: 351px;
+    background: rgba(204, 204, 204, 0.79);
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    font-family: monospace;
+    resize: none;
+}
+.inputLateForm::placeholder{
+    font-size: 26px;
+}
+.buttonPicterBlock{
+    position: relative;
+    top: 3558px;
+    left: 360px;
+}
+.doctigeniaCentrBlock{
+    position: absolute;
+    top: 220px;
+    left:  17px;
+}
+.calc{
+    position: absolute;
+    top: 190px;
+    left: -10px;
+}
+.buttonDownImg{
+     position: absolute;
+    top: 360px;
+    left: 170px;
+    height: 60px;
+    width: 210px;
+    background: #544e58;
+    clip-path: polygon(20% 0%, 100% 0%, 80% 100%,0% 100%);
+    transition-duration: 0.5s;
+}
+.buttonDownImg:hover{
+    transition-duration: 0.5s;
+    left: 120px;
+    width: 310px;
+}
+.whiteBlock_1{
+    z-index: 5;
+    background: #fff;
+    position: absolute;
+    top: 2690px;
+    left: 0px;
+    height: 525px;
+    width: 410px;
+}
+.whiteBlock_2{
+    z-index: 5;
+    background: #fff;
+    position: absolute;
+    top: 2690px;
+    left: 1142px;
+    height: 525px;
+    width: 465px;
+}
+.punctBlockInput_1{
+    position: absolute;
+    top: 2113px;
+    left: 395px;
+}
+.punctBlockInput_2{
+    position: absolute;
+    top: 2249px;
+    left: 395px;
+}
+.punctBlockInput_3{
+    position: absolute;
+    top: 2385px;
+    left: 395px;
+}
+.inputPunct{
+    border: 0;
+    outline: none;
+    height: 52px;
+    width: 799px;
+    background: url("picter/%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%20%D0%BF%D1%83%D0%BD%D0%BA%D1%82%D0%B0.png") no-repeat;
+    background-size: 754px 54px;
+}
+.obvodka_1{
+    z-index: -1;
+    position: absolute;
+    top: 7px;
+    left: 0px;
+    height: 38px;
+    width: 752px;
+    background: #C4C4C4;
+}
+.obvodka_2{
+    z-index: -1;
+    position: absolute;
+    top: 7px;
+    left: 0px;
+    height: 38px;
+    width: 752px;
+    background: #C4C4C4;
+}
+.obvodka_3{
+    z-index: -1;
+    position: absolute;
+    top: 7px;
+    left: 0px;
+    height: 38px;
+    width: 752px;
+    background: #C4C4C4;
+}
+.spisock{
+    z-index: 9;
+    background: #C4C4C4;
+    height: 136px;
+    width: 752px;
+    position: absolute;
+    top: 2158px;
+    left: 395px;
+}
+.textSpiska{
+    letter-spacing: 5px;
+    margin-left: 26px;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: relative;
+    top: 4px;
+}
+.elementSpiskaTop{
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+    position: relative;
+    height: 34px;
+    width: 752px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.elementSpiskaTop:hover{
+    position: relative;
+    background: #fff;
+    height: 34px;
+    width: 752px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.elementSpiska_1{
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+    position: relative;
+    top: -10px;
+    height: 34px;
+    width: 752px;
+    margin-bottom: 10px;
+}
+.elementSpiska_1:hover{
+    position: relative;
+    top: -10px;
+    background: #fff;
+    height: 34px;
+    width: 752px;
+    margin-bottom: 10px;
+}
+.elementSpiska_2{
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+    position: relative;
+    top: -20px;
+    height: 34px;
+    width: 752px;
+    margin-bottom: 10px;
+}
+.elementSpiska_2:hover{
+    position: relative;
+    top: -20px;
+    background: #fff;
+    height: 34px;
+    width: 752px;
+    margin-bottom: 10px;
+}
+.elementSpiska_3{
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+    position: relative;
+    top: -30px;
+    height: 34px;
+    width: 752px;
+    margin-bottom: 10px;
+}
+.elementSpiska_3:hover{
+    position: relative;
+    top: -30px;
+    background: #fff;
+    height: 34px;
+    width: 752px;
+    margin-bottom: 10px;
+}
+.clickSpisockExit_1{
+    z-index: 11;
+    position: absolute;
+    top: -9px;
+    left: 20px;
+    height: 2464%;
+    width: 374px;
+    background: rgba(255, 255, 255, 0);
+}
+.clickSpisockExit_2{
+    z-index: 11;
+    position: absolute;
+    top: -9px;
+    left: 1146px;
+    height: 2464%;
+    width: 401px;
+    background: rgba(255, 255, 255, 0);
+}
+.clickSpisockExit_3{
+    z-index: 11;
+    position: absolute;
+    top: -10px;
+    left: 395px;
+    height: 1266%;
+    width: 750px;
+    background: rgba(255, 255, 255, 0);
+}
+.clickSpisockExit_4{
+z-index: 11;
+    position: absolute;
+    top: 2293px;
+    left: 395px;
+    height: 1119%;
+    width: 750px;
+    background: rgba(255, 255, 255, 0);
+}    
+.elementSpisock{
+    position: relative;
+    top: -8px;
+}
+.viborPunctaBlock_1{
+    position: absolute;
+    top: 2135px;
+    left: 399px;
+}
+.viborPunctText_1{
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+}
+.viborPunctaBlock_2{
+    position: absolute;
+    top: 2270px;
+    left: 399px;
+}
+.viborPunctText_2{
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+}
+.viborPunctaBlock_3{
+    position: absolute;
+    top: 2407px;
+    left: 399px;
+}
+.viborPunctText_3{
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+}
+.spisock_2{
+    z-index: 9;
+    background: #C4C4C4;
+    height: 68px;
+    width: 752px;
+    position: absolute;
+    top: 2294px;
+    left: 395px;
+}
+.elementSpiskaTop_2{
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+    position: relative;
+    height: 34px;
+    width: 752px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.elementSpiskaTop_2:hover{
+    position: relative;
+    height: 34px;
+    width: 752px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background: #fff;
+}
+.elementSpiska_2_1{
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+    position: relative;
+    top: -10px;
+    height: 34px;
+    width: 752px;
+    margin-bottom: 10px;
+}
+.elementSpiska_2_1:hover{
+    position: relative;
+    top: -10px;
+    height: 34px;
+    width: 752px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+.elementSpisock_2{
+    position: relative;
+    top: -10px;
+}
+.clickSpisockExit_5{
+    z-index: 11;
+    position: absolute;
+    top: -9px;
+    left: 20px;
+    height: 2464%;
+    width: 374px;
+    background: rgba(255, 255, 255, 0);
+}
+.clickSpisockExit_6{
+    z-index: 11;
+    position: absolute;
+    top: -9px;
+    left: 1146px;
+    height: 2464%;
+    width: 401px;
+    background: rgba(255, 255, 255, 0);
+}
+.clickSpisockExit_7{
+    z-index: 11;
+    position: absolute;
+    top: -10px;
+    left: 395px;
+    height: 1346%;
+    width: 750px;
+    background: rgba(255, 255, 255, 0);
+}
+.clickSpisockExit_8{
+z-index: 11;
+    position: absolute;
+    top: 2362px;
+    left: 395px;
+    height: 1078%;
+    width: 750px;
+    background: rgba(255, 255, 255, 0);
+}    
+.spisock_3{
+    z-index: 9;
+    background: #C4C4C4;
+    height: 68px;
+    width: 752px;
+    position: absolute;
+    top: 2430px;
+    left: 395px;
+}
+.elementSpiskaTop_3{
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+    position: relative;
+    height: 34px;
+    width: 752px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.elementSpiskaTop_3:hover{
+    position: relative;
+    height: 34px;
+    width: 752px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background: #fff;
+}
+.elementSpiska_3_1{
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+    position: relative;
+    top: -10px;
+    height: 34px;
+    width: 752px;
+    margin-bottom: 10px;
+}
+.elementSpiska_3_1:hover{
+    position: relative;
+    top: -10px;
+    height: 34px;
+    width: 752px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+.elementSpisock_3{
+    position: relative;
+    top: -10px;
+}
+.clickSpisockExit_9{
+    z-index: 11;
+    position: absolute;
+    top: -9px;
+    left: 20px;
+    height: 2464%;
+    width: 374px;
+    background: rgba(255, 255, 255, 0);
+}
+.clickSpisockExit_10{
+    z-index: 11;
+    position: absolute;
+    top: -9px;
+    left: 1146px;
+    height: 2464%;
+    width: 401px;
+    background: rgba(255, 255, 255, 0);
+}
+.clickSpisockExit_11{
+    z-index: 11;
+    position: absolute;
+    top: -10px;
+    left: 395px;
+    height: 1425%;
+    width: 750px;
+    background: rgba(255, 255, 255, 0);
+}
+.clickSpisockExit_12{
+z-index: -2;
+    position: absolute;
+    top: 2498px;
+    left: 395px;
+    height: 997%;
+    width: 750px;
+    background: rgba(255, 255, 255, 0);
+}    
+.clearPress{
+    position: absolute;
+    top: 2630px;
+    left: 740px;
+    height: 39px;
+    width: 140px;
+    border: 2px solid black;
+    background: rgba(255, 255, 255, 0);
+}
+.animeitPressTop{
+    z-index: -2;
+    position: absolute;
+    top: 2596px;
+    left: 740px;
+    height: 0px;
+    width: 0px;
+    background: black;
+    transform: skewY(-16deg);
+}
+.animeitPressDown{
+    z-index: -2;
+    position: absolute;
+    top: 2693px;
+    left: 740px;
+    height: 54px;
+    width: 158px;
+    background: black;
+    transform: skewY(-16deg);
+}
+.clearPressText{
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+    font-size: 17px;
+    font-family: monospace;   position: relative;
+    top: 9px;
+    left: 33px;
+    color: black;
+}
+.clearPressTextWhite{
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+    font-size: 17px;
+    font-family: monospace;   position: relative;
+    top: -11px;
+    left: 32px;
+    opacity: 0;
+    color: #fff;
+}
+
+.press{
+    position: absolute;
+    top: -30px;
+    left: -6px;
+    
+}
+.date{
+   position: absolute;
+   top: 2468px;
+   left: 380px;
+}
+.dateText{
+     font-size: 28px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.nullDate{
+    position: absolute;
+   top: 2467px;
+   left: 1093px;
+}
+.nullDateText{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.price{
+   position: absolute;
+   top: 2525px;
+   left: 382px;
+}
+.nullPrice{
+   position: absolute;
+   top: 2525px;
+   left: 1093px;
+}
+.typeWebText{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 29px;
+}
+.typeWeb{
+    position: absolute;
+    top: 2078px;
+    left: 386px;
+}
+.design{
+    position: absolute;
+    top: 2214px;
+    left: 388px;
+}
+.layout{
+    position: absolute;
+    top: 2350px;
+    left: 379px;
+}
+.imgExitPunct_1_1{
+    height: 20px;
+    width: 20px;
+}
+.imgExitPunct_1_2{
+    height: 20px;
+    width: 20px;
+}
+.imgExitPunct_1_3{
+    height: 20px;
+    width: 20px;
+}
+.imgExitPunct_2{
+    height: 12px;
+    width: 25px;
+}
+.imgExitPunctBlock_1_1{
+    position: absolute;
+    top: 2138px;
+    left: 1088px;
+}
+.imgExitPunctBlock_2_2{
+    position: absolute;
+    top: 2274px;
+    left: 1088px;
+}
+.imgExitPunctBlock_3_3{
+    position: absolute;
+    top: 2410px;
+    left: 1088px;
+}
+.imgExitPunctBlock_1{
+    position: absolute;
+    top: 2137px;
+    left: 1090px;
+}
+.imgExitPunctBlock_2{
+    position: absolute;
+    top: 2274px;
+    left: 1088px;
+}
+.imgExitPunctBlock_3{
+    position: absolute;
+    top: 2410px;
+    left: 1090px;
+}
+.rgbExitPunct_1{
+    z-index: 11;
+    background: rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 2121px;
+    left: 375px;
+    height: 56px;
+    width: 799px;
+}
+.rgbExitPunct_2{
+    z-index: 11;
+    background: rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 2257px;
+    left: 375px;
+    height: 56px;
+    width: 799px;
+}
+.rgbExitPunct_3{
+    z-index: 11;
+    background: rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 2393px;
+    left: 375px;
+    height: 56px;
+    width: 799px;
+}
+.rgbExitPunct_1_1{
+    z-index: 12;
+    background: rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 6px;
+    height: 38px;
+    width: 751px;
+}
+.rgbExitPunct_1_2{
+    z-index: 12;
+    background: rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 6px;
+    height: 38px;
+    width: 751px;
+}
+.rgbExitPunct_1_3{
+    z-index: 12;
+    background: rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 6px;
+    height: 38px;
+    width: 751px;
+}
+.lineCost_1{
+    position: absolute;
+    top: 2128px;
+    left: 1070px;
+    height: 38px;
+    width: 56px;
+    border-left: 1px solid black;
+}
+.lineCost_2{
+    position: absolute;
+    top: 2264px;
+    left: 1070px;
+    height: 38px;
+    width: 56px;
+    border-left: 1px solid black;
+}.lineCost_3{
+    position: absolute;
+    top: 2400px;
+    left: 1070px;
+    height: 38px;
+    width: 56px;
+    border-left: 1px solid black;
+}
+.fonImgCalc{
+    height: 860px;
+    width: 1540px;
+}
+.fonCalc{
+    z-index: -1;
+    position: absolute;
+    top: 1910px;
+    left: 0px;
+}
+ul{
+    z-index: 9;
+    position: absolute;
+    top: 1380px;
+    left: 880px;
+}
+li{
+    list-style: none;
+    font-size: 29px;
+    font-family: sans-serif;
+    font-weight:  bold;
+    margin-bottom: 37px;
+    width: 600px;
+    height: 50px;
+    
+}
+li:before{
+    content: "";
+    display: block;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 58px;
+    left: -60px;
+    background:  url("picter/checkmark%202.png") no-repeat;
+}
+.liTwoDown{
+    margin-top: 50px;
+    margin-bottom: -15px;
+}
+.liTwoDown:before{
+    position: relative;
+    top: 40px;
+}
+.inst{
+    border-radius: 13px;
+    z-index: 9;
+    position: relative;
+    top: 3888px;
+    left: 997px;
+    width: 54px;
+    height: 51px;
+}
+.vk{
+    border-radius: 13px;
+    z-index: 9;
+    position: relative;
+    top: 3832px;
+    left: 1086px;
+    width: 59px;
+    height: 55px;
+}
+.inputTextDown{
+    width: 150px;
+    pointer-events: none;
+    z-index: 3;
+    position: absolute;
+    top: 3938px;
+    left: 564px;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+.statistika{
+    position: absolute;
+    top: 3560px;
+    left: 20px;
+}
+.completeJob{
+    height: 280px;
+    width: 300px;
+    border: 2px solid black;
+    position: relative;
+    top: 0px;
+    left: 450px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black;
+}
+.completeJobImg{
+      height: 110px;
+    width: 110px;
+    position: relative;
+    top: -28px;
+    left: 100px;
+}
+.quantityOrders{
+    height: 280px;
+    width: 300px;
+    border: 2px solid black;
+    position: relative;
+    top: -284px;
+    left: 790px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black;
+}
+.quantityOrdersImg{
+    height: 127px;
+    width: 127px;
+    position: relative;
+    top: -35px;
+    left: 87px;
+}
+.plusOtzivi{
+    height: 280px;
+    width: 300px;
+    border: 2px solid black;
+    position: relative;
+    top: -260px;
+    left: 450px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black; 
+}
+.plusOtziviImg{
+    height: 120px;
+    width: 125px;
+    position: relative;
+    top: -32px;
+    left: 90px;
+}
+.completeHours{
+    height: 280px;
+    width: 300px;
+    border: 2px solid black;
+    position: relative;
+    top: -542px;
+    left: 791px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black; 
+}
+.completeHoursImg{
+    height: 125px;
+    width: 120px;
+    position: relative;
+    top: -30px;
+    left: 88px;
+}
+.textStatistiki_1{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    top: 129px;
+    left: 46px;
+}
+.textStatistiki_2{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    top: 129px;
+    left: 80px;
+}
+.textStatistiki_3{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    top: 137px;
+    left: 42px;
+}
+.textStatistiki_4{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    top: 136px;
+    left: 84px;
+}
+.number_1{
+   font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    top: 193px;
+    left: -94px; 
+}
+.number_2{
+   font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    top: 193px;
+    left: -10px; 
+}
+.number_3{
+   font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    top: 196px;
+    left: -90px; 
+}
+.number_4{
+   font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    top: 196px;
+    left: -37px; 
+}
+.preload{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 15;
+    background: white;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: 0.6s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.load{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 10px solid #8879ff;
+    border-left-color: #464dfd;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
