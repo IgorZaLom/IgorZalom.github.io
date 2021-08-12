@@ -37,6 +37,16 @@ ul{
     background: rgba(255, 255, 255, 0);
     border: 0;
 }
+.dropdown-menu{
+    height: 180px;
+}
+.dropdown-item{
+    height: 60px;
+}
+a span{
+    position: relative;
+    top: 25%;
+}
 @media (max-width: 436px){
     nav{
         height: 70px;
