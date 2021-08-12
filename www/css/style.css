@@ -26,9 +26,23 @@ ul{
 }
 .name{
     font-family: sans-serif;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 16px;
     text-align: center;
 }
-
+.icn{
+    color: black;
+}
+.dropdown button{
+    background: rgba(255, 255, 255, 0);
+    border: 0;
+}
+@media (max-width: 436px){
+    nav{
+        height: 70px;
+    }
+    .name{
+        font-size: 18px;
+    }
+}
 
