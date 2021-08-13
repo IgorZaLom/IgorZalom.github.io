@@ -143,11 +143,11 @@ a span{
     .hello{
         padding-left: 0;
         padding-top: 40px;
-        font-size: 33px;
+        font-size: 30px;
     }
     .tetx-h{
-        padding-left: 0;
-        font-size: 23px;
+        padding-left: 5px;
+        font-size: 20px;
     }
 }
 @media (min-width:768px) and (max-width:991px){
