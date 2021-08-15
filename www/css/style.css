@@ -40,6 +40,7 @@ nav{
     height: 45px;
     background: #3a6de0;
     position: fixed;
+    z-index: 10;
 }
 ul{
     list-style-type: none;
@@ -132,6 +133,30 @@ a span{
     font-weight: bold;
     color: #fff;
 }
+.line-border{
+    width: 200%;
+    margin-left: -120px;
+    height: 17px;
+}
+.rezum-picter{
+    padding-top: 10px;
+    margin-bottom: 60px;
+    margin-left: -60px;
+}
+.text-h-rezum{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 70px;
+    margin-left: -60px;
+}
+.text-rezum{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: -60px;
+}
 @media (max-width: 400px){
         .inputDown{
     left: 26%;
@@ -150,6 +175,20 @@ a span{
     top: 39px;
     left: 37%;
 }
+    .text-h-rezum{
+        font-size: 25px;
+        margin-bottom: 30px;
+        margin-left: -40px;
+    }
+    .rezum-picter{
+        width: 260px;
+        height: 200px;
+        margin-left: -40px;
+    }
+    .text-rezum{
+        font-size: 20px;
+        margin-left: -40px;
+    }
 }
 @media (min-width: 400px) and (max-width: 470px){
     .inputDown{
@@ -169,6 +208,20 @@ a span{
     top: 40px;
     left: 153px;
 }
+  .text-h-rezum{
+        font-size: 25px;
+        margin-bottom: 30px;
+        margin-left: -40px;
+    }
+    .rezum-picter{
+        width: 260px;
+        height: 200px;
+        margin-left: -40px;
+    }
+    .text-rezum{
+        font-size: 20px;
+        margin-left: -40px;
+    }
 }
 @media (max-width: 481px){
     nav{
@@ -194,6 +247,15 @@ a span{
     top: -80px;
     left: 136px;
 }
+    .text-h-rezum{
+        margin-left: -160px;
+    }
+    .rezum-picter{
+        margin-left: -160px;
+    }
+    .text-rezum{
+        margin-left: -160px;
+    }
 }
 @media (min-width:991px) and (max-width:1200px){
     .inputDown{
@@ -242,16 +304,28 @@ a span{
     top: 72px;
     left: 37%;
 }
+    .text-h-rezum{
+        margin-bottom: 40px;
+        font-size: 27px;
+    }
+    .rezum-picter{
+        height: 200px;
+        width: 260px;
+    }
+    .text-rezum{
+         font-size: 21px;
+    }
+
 }
 @media (max-width:444px){
     .hello{
         padding-left: 0;
         padding-top: 40px;
-        font-size: 1.1em;
+        font-size: 25px;
     }
     .tetx-h{
         padding-left: 5px;
-        font-size: 1.1em;
+        font-size: 20px;
     }
 }
 @media (min-width:768px) and (max-width:991px){
@@ -284,4 +358,7 @@ a span{
     top: 79px;
     left: 268px;
 }
+    .line-border{
+        margin-left: -160px;
+    }
 }
