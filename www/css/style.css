@@ -157,6 +157,50 @@ a span{
     font-weight: 500;
     margin-left: -60px;
 }
+.dost-img{
+    height: 410px;
+    width: 570px;
+    margin-top: 80px;
+}
+.dost-spisock{
+    margin-top: -415px;
+}
+.dost-spisock li{
+    list-style: none;
+    font-size: 29px;
+    font-family: sans-serif;
+    font-weight:  bold;
+    margin-bottom: 48px;
+    width: 600px;
+    height: 50px;
+
+}
+.li-two-top::before{
+    content: "";
+    display: block;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 58px;
+    left: -60px;
+    background: url("../fonts/checkmark%202.png") no-repeat;
+}
+.liTwoDown_1{
+    margin-top: 55px;
+}
+.liTwoDown_2{
+    margin-top: -14px;
+}
+.liTwoDown::before{
+    content: "";
+    display: block;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 45px;
+    left: -60px;
+    background: url("../fonts/checkmark%202.png") no-repeat;
+}
 @media (max-width: 400px){
         .inputDown{
     left: 26%;
@@ -188,6 +232,26 @@ a span{
     .text-rezum{
         font-size: 20px;
         margin-left: -40px;
+    }
+    .dost-spisock{
+        margin-left: 65px;
+        margin-top: -40px;
+    }
+    .dost-spisock li{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .liTwoDown_1{
+    margin-top: 25px;
+}
+    .liTwoDown_2{
+    margin-top: -11px;
+    }
+    .liTwoDown::before{
+        top: 32px;
+    }
+    .li-two-top:before{
+        top: 45px;
     }
 }
 @media (min-width: 400px) and (max-width: 470px){
@@ -221,6 +285,20 @@ a span{
     .text-rezum{
         font-size: 20px;
         margin-left: -40px;
+    }
+        .dost-spisock{
+        margin-left: 80px;
+        margin-top: -40px;
+    }
+    .dost-spisock li{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .liTwoDown_1{
+    margin-top: 30px;
+}
+    .liTwoDown_2{
+    margin-top: -12px;
     }
 }
 @media (max-width: 481px){
@@ -270,6 +348,13 @@ a span{
     top: -80px;
     left: 67px;
 }
+    .dost-img{
+        height: 360px;
+        width: 450px;
+    }
+    .dost-spisock{
+        margin-top: -380px;
+    }
 }
 @media (max-width:1200px){
      .img-top{
@@ -315,7 +400,10 @@ a span{
     .text-rezum{
          font-size: 21px;
     }
-
+    .dost-spisock{
+        margin-top: -10px;
+        margin-left: 40px;
+    }
 }
 @media (max-width:444px){
     .hello{
@@ -360,5 +448,22 @@ a span{
 }
     .line-border{
         margin-left: -160px;
+    }
+    .dost-spisock{
+        margin-top: -302px;
+    }
+    .dost-img{
+        height: 270px;
+        width: 330px;
+    }
+    .dost-spisock li{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .liTwoDown_1{
+    margin-top: 30px;
+}
+    .liTwoDown_2{
+    margin-top: -12px;
     }
 }
