@@ -7,16 +7,6 @@
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/font-awesome.min.css"/>
-    <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript">
-        let preload = document.querySelector('.preload');
-    window.addEventListener('load',() =>{
-       $(".preload").css({"opacity":"0"})});
-        setTimeout(()=>{
-           $(".preload").remove();
-        },600);
-    </script>
 </head>
 <body>
     <div id="preload" class="preload">
@@ -94,6 +84,180 @@
                        </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-12">
+                        <img alt="задний фон для калькулятора" src="fonts/original-277e260d20d3c03a7771897705635d0c.jpg" class="calc-fon"/>
+                    </div>
+                    <div class="offset-xxl-1 offset-xl-1 offset-lg-1">
+                        <ul class="type-btn-calc">
+                        <li class="h-type-calc">Тип сайта</li>
+                        <li>
+                            <div class="dropdown">
+                          <button class="btn-calc" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span id="typeBtn">Выбрать пункт</span><i class="fa icon-calc fa-lg fa-chevron-down" aria-hidden="true"></i>
+                          </button>
+                          <ul class="dropdown-menu menu-type" aria-labelledby="dropdownMenuButton1">
+                            <li class="dropdown-item" id="landing"><span>landing page</span></li>
+                            <li class="dropdown-item" id="corp"><span>корпоративный сайт</span></li>
+                            <li class="dropdown-item" id="visite"><span>сайт визитка</span></li>
+                            <li class="dropdown-item" id="magazine"><span>интернет магазин</span></li>
+                          </ul>
+                        </div>
+                        </li>
+                        </ul>
+                        <ul class="design-btn-calc">
+                        <li class="h-type-calc">Дизайн</li>
+                        <li>
+                            <div class="dropdown">
+                          <button class="btn-calc" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span id="designBtn">Выбрать пункт</span><i class="fa icon-calc fa-lg fa-chevron-down" aria-hidden="true"></i>
+                          </button>
+                          <ul class="dropdown-menu menu-design-adaptiv" aria-labelledby="dropdownMenuButton1">
+                            <li class="dropdown-item" id="designZack"><span>дизайн заказчика</span></li>
+                            <li class="dropdown-item" id="individDesign"><span>разработка дизайна</span></li>
+                          </ul>
+                        </div>
+                        </li>
+                        </ul>
+                        <ul class="adaptiv-btn-calc">
+                        <li class="h-type-calc">Адаптивность</li>
+                        <li>
+                            <div class="dropdown">
+                          <button class="btn-calc" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <span id="adaptivBtn">Выбрать пункт</span><i class="fa icon-calc fa-lg fa-chevron-down" aria-hidden="true"></i>
+                          </button>
+                          <ul class="dropdown-menu menu-design-adaptiv" aria-labelledby="dropdownMenuButton1">
+                            <li class="dropdown-item" id="adaptiv"><span>адаптивный сайт</span></li>
+                            <li class="dropdown-item" id="noAdaptiv"><span>стандартная вёрстка</span></li>
+                          </ul>
+                        </div>
+                        </li>
+                        </ul>
+                        <ul class="elment-rotate">
+                            <li class="date">СРОК:<span class="null" id="nullDate">0дн.</span></li>
+                            <li class="prise">ЦЕНА:<span class="null" id="nullPrice">0руб.</span></li>
+                            <li class="btn-clear"><div class="visited-btn"><span>Сбросить</span><div class="animeit-btn"></div></div></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+
+
+
+
+
+            <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript">
+        let preload = document.querySelector('.preload');
+    window.addEventListener('load',() =>{
+       $(".preload").css({"opacity":"0"})});
+        setTimeout(()=>{
+           $(".preload").remove();
+        },600);
+    </script>
+    <script type="text/javascript">
+        var t=0,g=0,l=0,i=0,u=0,m=0,n=0, c=0;
+        $(document).ready(function(){
+            $("#landing").on("click",function(){ //a
+                sumDate(5,0,0,0,0,0,0,0,0,0,0);
+                sumPrice(1000,0,0,0,0,0,0,0,0,0,0);
+                $("#typeBtn").html("landing page");
+            });
+            $("#corp").on("click",function(){ //s
+                sumDate(0,7,0,0,0,0,0,0,0);
+                sumPrice(0,1500,0,0,0,0,0,0,0);
+                $("#typeBtn").html("корпоративный сайт");
+            });
+            $("#visite").on("click",function(){ //d
+                sumDate(0,0,4,0,0,0,0,0,0);
+                sumPrice(0,0,750,0,0,0,0,0,0);
+                $("#typeBtn").html("сайт визитка");
+            });
+            $("#magazine").on("click",function(){ //f
+                sumDate(0,0,0,15,0,0,0,0,0);
+                sumPrice(0,0,0,2500,0,0,0,0,0);
+                $("#typeBtn").html("интернет магазин");
+            });
+            $("#designZack").on("click",function(){ //h
+                sumDate(0,0,0,0,1,0,0,0,0);
+                sumPrice(0,0,0,0,100,0,0,0,0);
+                $("#designBtn").html("дизайн заказчика");
+            });
+            $("#individDesign").on("click",function(){ //j
+                sumDate(0,0,0,0,0,4,0,0,0);
+                sumPrice(0,0,0,0,0,750,0,0,0);
+                $("#designBtn").html("разработка дизайна");
+            });
+            $("#adaptiv").on("click",function(){ //z
+                sumDate(0,0,0,0,0,0,4,0,0);
+                sumPrice(0,0,0,0,0,0,1200,0,0);
+                $("#adaptivBtn").html("адаптивный сайт");
+            });
+            $("#noAdaptiv").on("click",function(){ //x
+                sumDate(0,0,0,0,0,0,0,1,0);
+                sumPrice(0,0,0,0,0,0,0,100,0);
+                $("#adaptivBtn").html("стандартная вёрстка");
+            });
+            $(".btn-clear").on("click",function(){
+                $("#typeBtn").html("Выбрать пункт");
+                $("#designBtn").html("Выбрать пункт");
+                $("#adaptivBtn").html("Выбрать пункт");
+                sumDate(0,0,0,0,0,0,0,0,1);
+                sumPrice(0,0,0,0,0,0,0,0,1);
+
+            });
+        });
+        function sumDate(a,s,d,f,h,j,z,x,clear_1){
+            if(a!=0&&s==0&&d==0&&f==0&&h==0&&j==0&&z==0&&x==0&&clear_1==0)
+                t=a;
+            if(a==0&&s!=0&&d==0&&f==0&&h==0&&j==0&&z==0&&x==0&&clear_1==0)
+                t=s;
+            if(a==0&&s==0&&d!=0&&f==0&&h==0&&j==0&&z==0&&x==0&&clear_1==0)
+                t=d;
+            if(a==0&&s==0&&d==0&&f!=0&&h==0&&j==0&&z==0&&x==0&&clear_1==0)
+                t=f;
+            if(a==0&&s==0&&d==0&&f==0&&h!=0&&j==0&&z==0&&x==0&&clear_1==0)
+                l=h;
+            if(a==0&&s==0&&d==0&&f==0&&h==0&&j!=0&&z==0&&x==0&&clear_1==0)
+                l=j;
+            if(a==0&&s==0&&d==0&&f==0&&h==0&&j==0&&z!=0&&x==0&&clear_1==0)
+                i=z;
+            if(a==0&&s==0&&d==0&&f==0&&h==0&&j==0&&z==0&&x!=0&&clear_1==0)
+                i=x;
+            if(a==0&&s==0&&d==0&&f==0&&h==0&&j==0&&z==0&&x==0&&clear_1!=0){
+                t=0;
+                l=0;
+                i=0;
+            }
+            g=t+l+i;
+            $("#nullDate").html(g+"дн.");
+        }
+        function sumPrice(q,w,e,r,t,y,o,p,clear_2){
+            if(q!=0&&w==0&&e==0&&r==0&&t==0&&y==0&&o==0&&p==0&&clear_2==0)
+                m=q;
+            if(q==0&&w!=0&&e==0&&r==0&&t==0&&y==0&&o==0&&p==0&&clear_2==0)
+                m=w;
+            if(q==0&&w==0&&e!=0&&r==0&&t==0&&y==0&&o==0&&p==0&&clear_2==0)
+                m=e;
+            if(q==0&&w==0&&e==0&&r!=0&&t==0&&y==0&&o==0&&p==0&&clear_2==0)
+                m=r;
+            if(q==0&&w==0&&e==0&&r==0&&t!=0&&y==0&&o==0&&p==0&&clear_2==0)
+                n=t;
+            if(q==0&&w==0&&e==0&&r==0&&t==0&&y!=0&&o==0&&p==0&&clear_2==0)
+                n=y;
+            if(q==0&&w==0&&e==0&&r==0&&t==0&&y==0&&o!=0&&p==0&&clear_2==0)
+                c=o;
+            if(q==0&&w==0&&e==0&&r==0&&t==0&&y==0&&o==0&&p!=0&&clear_2==0)
+                c=p;
+            if(q==0&&w==0&&e==0&&r==0&&t==0&&y==0&&o==0&&p==0&&clear_2!=0){
+                m=0;
+                n=0;
+                c=0;
+            }
+            u=m+n+c;
+            $("#nullPrice").html(u+"руб.");
+        }
+    </script>
 </body>
 </html>

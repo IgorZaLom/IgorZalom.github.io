@@ -201,6 +201,142 @@ a span{
     left: -60px;
     background: url("../fonts/checkmark%202.png") no-repeat;
 }
+.calc-fon{
+    position: relative;
+    margin-top: 150px;
+    margin-left: -140px;
+    width: 124%;
+    height: 90%;
+    z-index: -2;
+}
+.type-btn-calc{
+    margin-top: -750px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+.design-btn-calc{
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+.adaptiv-btn-calc{
+    margin-left: 60px;
+}
+.h-type-calc{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 7px;
+    margin-bottom: 13px;
+}
+.btn-calc{
+    width: 80%;
+    height: 40px;
+    background: #727272 !important;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.btn-calc:hover{
+    background: #5f5f5f !important;
+}
+.dropdown-menu{
+    width: 80%;
+    background: #727272 !important;
+}
+.menu-type{
+  height: 170px;
+}
+.menu-design-adaptiv{
+    height: 90px;
+}
+.dropdown-item{
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 500 !important;
+    letter-spacing: 2px;
+}
+.dropdown-item span{
+    pointer-events: none;
+}
+.dropdown-item:hover{
+    background: #5f5f5f !important;
+}
+.fa-lg{
+    vertical-align: -8% !important;
+}
+.icon-calc{
+    display: block !important;
+    position: relative;
+    top: -22px;
+    margin-left: 96%;
+}
+#typeBtn{
+    letter-spacing: 2px;
+    display: block;
+    margin-top: 5px;
+}
+#designBtn{
+    letter-spacing: 2px;
+    display: block;
+    margin-top: 5px;
+}
+#adaptivBtn{
+    letter-spacing: 2px;
+    display: block;
+    margin-top: 5px;
+}
+.elment-rotate{
+    margin-left: 68px;
+}
+.date{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.prise{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.null{
+    margin-left: 70%;
+}
+.btn-clear{
+    margin-top: 20px;
+    margin-left: 400px;
+}
+.visited-btn{
+    padding-left: 30px;
+    padding-top: 7px;
+    width: 145px;
+    height: 45px;
+    border: 3px solid black;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+.visited-btn span{
+    pointer-events: none;
+}
+.animeit-btn{
+    position: relative;
+    z-index: -1;
+    top: -31px;
+    left: -30px;
+    background: black;
+    width: 0px;
+    height: 40px;
+    margin-left: 70px;
+    transition-duration: 0.5s;
+}
+.visited-btn:hover .animeit-btn{
+    margin-left: 0px;
+    width: 140px;
+}
 @media (max-width: 400px){
         .inputDown{
     left: 26%;
@@ -234,11 +370,11 @@ a span{
         margin-left: -40px;
     }
     .dost-spisock{
-        margin-left: 65px;
+        margin-left: 35px;
         margin-top: -40px;
     }
     .dost-spisock li{
-        font-size: 15px;
+        font-size: 19px;
         margin-bottom: 15px;
     }
     .liTwoDown_1{
@@ -302,11 +438,63 @@ a span{
     }
 }
 @media (max-width: 481px){
+    .null{
+        margin-left: 42%;
+    }
+    .dropdown-menu{
+        width: 100%;
+    }
+    .btn-clear{
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .date{
+        margin-left: -61px;
+    }
+    .prise{
+        margin-left: -61px;
+    }
+    .h-type-calc{
+        font-size: 26px;
+    }
+    .fa-lg{
+        margin-top: 2px;
+    }
+    .icon-calc{
+        margin-left: 92%;
+    }
+    .btn-calc{
+        margin-top: -4px;
+        padding-top: 3px;
+        font-size: 16px;
+        width: 100%;
+    }
+    .calc-fon{
+        margin-top: 100px;
+        width: 180%;
+        height: 126%;
+    }
+    .type-btn-calc{
+        margin-top: -330px;
+        margin-left: -35px;
+    }
+    .design-btn-calc{
+        margin-left: -35px;
+    }
+    .adaptiv-btn-calc{
+        margin-left: -35px;
+    }
     nav{
         height: 70px;
     }
 }
 @media (min-width:1200px) and (max-width:1400px){
+    .null{
+        margin-left: 69%;
+    }
+    .btn-clear{
+        margin-left: 330px;
+    }
     .hello, .tetx-h{
         padding-left: 0px;
     }
@@ -336,6 +524,28 @@ a span{
     }
 }
 @media (min-width:991px) and (max-width:1200px){
+    .date{
+        margin-left: -28px;
+    }
+    .prise{
+        margin-left: -28px;
+    }
+    .null{
+        margin-left: 68%;
+    }
+    .btn-clear{
+        margin-left: 245px;
+    }
+    .type-btn-calc{
+        margin-top: -580px;
+        margin-left: 30px;
+    }
+    .design-btn-calc{
+        margin-left: 30px;
+    }
+    .adaptiv-btn-calc{
+        margin-left: 30px;
+    }
     .inputDown{
     left: 30px;
     top: -120px;
@@ -377,6 +587,51 @@ a span{
     }
 }
 @media (min-width: 470px) and (max-width: 768px){
+    .null{
+        margin-left: 52%;
+    }
+    .dropdown-menu{
+        width: 100%;
+    }
+    .btn-clear{
+        margin-left: 60px;
+    }
+    .date{
+        margin-left: -50px;
+    }
+    .prise{
+        margin-left: -50px;
+    }
+    .h-type-calc{
+        font-size: 26px;
+    }
+    .fa-lg{
+        margin-top: 2px;
+    }
+    .icon-calc{
+        margin-left: 92%;
+    }
+    .btn-calc{
+        margin-top: -4px;
+        padding-top: 3px;
+        font-size: 16px;
+        width: 100%;
+    }
+    .calc-fon{
+        margin-top: 100px;
+        width: 160%;
+        height: 126%;
+    }
+    .type-btn-calc{
+        margin-top: -330px;
+        margin-left: -35px;
+    }
+    .design-btn-calc{
+        margin-left: -35px;
+    }
+    .adaptiv-btn-calc{
+        margin-left: -35px;
+    }
     .inputDown{
     left: 30%;
     top: 30px;
@@ -417,6 +672,40 @@ a span{
     }
 }
 @media (min-width:768px) and (max-width:991px){
+    .btn-clear{
+        margin-left: 200px;
+    }
+    .icon-calc{
+        margin-left: 93%;
+    }
+    .null{
+        margin-left: 75%;
+    }
+    .date{
+        margin-left: -26px;
+    }
+    .prise{
+        margin-left: -26px;
+    }
+    .dropdown-menu{
+        width: 94%;
+    }
+    .btn-calc{
+        width: 94%;
+    }
+    .type-btn-calc{
+        margin-left: 30px;
+        margin-top: -510px;
+    }
+    .design-btn-calc{
+        margin-left: 30px;
+    }
+    .adaptiv-btn-calc{
+        margin-left: 30px;
+    }
+    .calc-fon{
+        width: 142%;
+    }
     nav{
         height: 50px;
     }
@@ -450,6 +739,7 @@ a span{
         margin-left: -160px;
     }
     .dost-spisock{
+        margin-left: -15px;
         margin-top: -302px;
     }
     .dost-img{
@@ -457,7 +747,7 @@ a span{
         width: 330px;
     }
     .dost-spisock li{
-        font-size: 20px;
+        font-size: 22px;
         margin-bottom: 20px;
     }
     .liTwoDown_1{
