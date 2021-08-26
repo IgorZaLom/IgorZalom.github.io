@@ -523,15 +523,18 @@ a span{
     .img-exemple-case{
         width: 80%;
         margin-bottom: 60px;
+        height: 32vh;
     }
     .right-scroll{
+        height: 32vh;
         width: 12%;
     }
     .left-scroll{
+        height: 32vh;
         width: 12%;
     }
     .stat{
-        margin-top: 45px !important;
+        margin-top: 60px !important;
     }
     .fon-line{
         width: 190%;
