@@ -169,7 +169,7 @@ a span{
     list-style: none;
     font-size: 29px;
     font-family: sans-serif;
-    font-weight:  bold;
+    font-weight:  500;
     margin-bottom: 48px;
     width: 600px;
     height: 50px;
@@ -337,6 +337,20 @@ a span{
     margin-left: 0px;
     width: 140px;
 }
+.calculait{
+    margin-top: -270px !important;
+}
+.h-case{
+    margin-bottom: 70px;
+    margin-top: 120px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 27px;
+}
+.img-exemple-case{
+    height: 60%;
+    width: 53%;
+}
 @media (max-width: 400px){
         .inputDown{
     left: 26%;
@@ -370,7 +384,7 @@ a span{
         margin-left: -40px;
     }
     .dost-spisock{
-        margin-left: 35px;
+        margin-left: 45px;
         margin-top: -40px;
     }
     .dost-spisock li{
@@ -438,6 +452,13 @@ a span{
     }
 }
 @media (max-width: 481px){
+    .h-case{
+        margin-bottom: 50px;
+        margin-top: 60px;
+    }
+    .calculait{
+        margin-top: -80px !important;
+    }
     .null{
         margin-left: 42%;
     }
@@ -524,6 +545,9 @@ a span{
     }
 }
 @media (min-width:991px) and (max-width:1200px){
+    .h-case{
+        margin-top: 70px;
+    }
     .date{
         margin-left: -28px;
     }
@@ -573,6 +597,13 @@ a span{
     }
 }
 @media (max-width: 768px){
+    .visited-btn{
+        background: black;
+    }
+    .visited-btn:hover .animeit-btn{
+        margin-left: 70px;
+        width: 0px;
+    }
     .name{
         font-size: 18px;
     }
@@ -587,6 +618,13 @@ a span{
     }
 }
 @media (min-width: 470px) and (max-width: 768px){
+    .h-case{
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    .calculait{
+        margin-top: -140px !important;
+    }
     .null{
         margin-left: 52%;
     }
@@ -672,6 +710,12 @@ a span{
     }
 }
 @media (min-width:768px) and (max-width:991px){
+    .calculait{
+        margin-top: -210px !important;
+    }
+    .h-case{
+        margin-top: 70px;
+    }
     .btn-clear{
         margin-left: 200px;
     }
