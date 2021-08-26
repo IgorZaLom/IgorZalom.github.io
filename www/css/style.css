@@ -312,7 +312,7 @@ a span{
     padding-left: 30px;
     padding-top: 7px;
     width: 145px;
-    height: 45px;
+    height: 44px;
     border: 3px solid black;
     font-family: sans-serif;
     font-size: 16px;
@@ -348,8 +348,31 @@ a span{
     font-size: 27px;
 }
 .img-exemple-case{
-    height: 60%;
+    margin-bottom: 220px;
+    height: 430px;
     width: 53%;
+}
+.left-scroll{
+    width: 10%;
+    height: 430px;
+    background: rgba(100, 100, 100, 0.6);
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-scroll{
+    width: 10%;
+    height: 430px;
+    background: rgba(100, 100, 100, 0.6);
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-scroll{
+    color: #fff;
+    font-size: 30px;
 }
 .fon-line{
     transform: rotate(-6deg);
@@ -497,6 +520,16 @@ a span{
     }
 }
 @media (max-width: 481px){
+    .img-exemple-case{
+        width: 80%;
+        margin-bottom: 60px;
+    }
+    .right-scroll{
+        width: 12%;
+    }
+    .left-scroll{
+        width: 12%;
+    }
     .stat{
         margin-top: 45px !important;
     }
@@ -678,6 +711,16 @@ a span{
     }
 }
 @media (min-width: 470px) and (max-width: 768px){
+    .img-exemple-case{
+        width: 80%;
+        margin-bottom: 60px;
+    }
+    .right-scroll{
+        width: 12%;
+    }
+    .left-scroll{
+        width: 12%;
+    }
     .stat{
         margin-top: 50px !important;
     }
@@ -780,6 +823,16 @@ a span{
     }
 }
 @media (min-width:768px) and (max-width:991px){
+    .img-exemple-case{
+        width: 65%;
+        margin-bottom: 100px;
+    }
+    .right-scroll{
+        width: 12%;
+    }
+    .left-scroll{
+        width: 12%;
+    }
     .stat{
         margin-top: 50px !important;
     }
