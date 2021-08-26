@@ -351,6 +351,51 @@ a span{
     height: 60%;
     width: 53%;
 }
+.fon-line{
+    transform: rotate(-6deg);
+    width: 140%;
+    height: 215%;
+    background: #00ffbf;
+    margin-left: -145px;
+    margin-top: 35px;
+}
+.stat{
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 120px !important;
+}
+.conteiner-stat{
+    height: 200px;
+    position: relative;
+    top: -20px;
+    z-index: 1;
+    display: flex;
+    justify-content:space-between;
+}
+.stat-block{
+    position: relative;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+.icon-stat{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.number-stat{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.text-stat{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
 @media (max-width: 400px){
         .inputDown{
     left: 26%;
@@ -452,6 +497,21 @@ a span{
     }
 }
 @media (max-width: 481px){
+    .stat{
+        margin-top: 45px !important;
+    }
+    .fon-line{
+        width: 190%;
+    }
+    .text-stat{
+        font-size: 12px;
+    }
+    .number-stat{
+        font-size: 20px;
+    }
+    .icon-stat-block{
+        font-size: 11px;
+    }
     .h-case{
         margin-bottom: 50px;
         margin-top: 60px;
@@ -618,6 +678,16 @@ a span{
     }
 }
 @media (min-width: 470px) and (max-width: 768px){
+    .stat{
+        margin-top: 50px !important;
+    }
+    .text-stat{
+        font-size: 13px;
+    }
+    .fon-line{
+        margin-left: -180px;
+        width: 160%;
+    }
     .h-case{
         margin-top: 60px;
         margin-bottom: 50px;
@@ -710,6 +780,13 @@ a span{
     }
 }
 @media (min-width:768px) and (max-width:991px){
+    .stat{
+        margin-top: 50px !important;
+    }
+    .fon-line{
+        margin-left: -180px;
+        width: 150%;
+    }
     .calculait{
         margin-top: -210px !important;
     }
