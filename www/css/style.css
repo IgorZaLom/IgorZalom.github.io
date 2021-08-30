@@ -419,6 +419,108 @@ a span{
     font-weight: 500;
     text-align: center;
 }
+.h-otziv{
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.container-otziv{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+}
+.under-conteiner{
+    position: absolute;
+    top: 0px;
+    padding-top: 20px;
+    width: 340px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.line-otziv{
+    border: 1px solid silver;
+    height: 1px;
+    width: 100px;
+    margin-bottom: 50px;
+}
+.name-otziv{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    margin-top: 12px;
+}
+.rotate-otziv-1{
+    /*position: relative;
+    left: 454px;*/
+}
+.rotate-otziv-2{
+    /*position: relative;
+    left: 460px;*/
+}
+.rotate-otziv-3{
+    /*position: relative;
+    left: 0px;*/
+}
+.otziv-text{
+    font-size: 18px;
+    font-weight: 600;
+}
+.icon-otziv-1{
+    height: 21%;
+    width: 18%;
+}
+.icon-otziv-2{
+    height: 21%;
+    width: 17%;
+}
+.icon-otziv-3{
+    height: 21%;
+    width: 17%;
+}
+.bal-otziv{
+    margin-top: 70px;
+}
+.ocr-otziv{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-left: 6px;
+}
+.bal-1{
+    background: #4a4a4a;
+}
+.bal-2{
+    background: #969696;
+}
+.bal-3{
+    background: #969696;
+}
+.float-white-right{
+    float: right;
+}
+.float-white-left{
+    float: left;
+}
+.white-block{
+    height: 60vh;
+    width: 30%;
+    background: #fff;
+}
+.white-main-blocks{
+    position: relative;
+    top: -470px;
+    z-index: -2;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
 @media (max-width: 400px){
         .inputDown{
     left: 26%;

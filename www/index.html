@@ -178,6 +178,46 @@
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-12 d-flex flex-column align-items-center">
+                       <div class="h-otziv">Отзывы</div>
+                        <div class="container-otziv">
+                           <div class="under-conteiner rotate-otziv-1" id="under-conteiner-1">
+                                <img alt="человек который оставил отзыв" src="fonts/icon-otziv-1.png" class="icon-otziv-1"/>
+                                <span class="name-otziv">Сергей Ефремов</span>
+                                <div class="line-otziv"></div>
+                                <span class="otziv-text">
+                                    Хорошая работа, сделал качественно, быстро и за приемлемую цену!
+                                </span>
+                            </div>
+                           <div class="under-conteiner rotate-otziv-2" id="under-conteiner-2">
+                            <img alt="человек который оставил отзыв" src="fonts/icon-otziv-2.png" class="icon-otziv-2"/>
+                            <span class="name-otziv">Aнна Волкова</span>
+                            <div class="line-otziv"></div>
+                            <span class="otziv-text">
+                                    Всё выполнено в срок, качество отличное. Стоит отметить что заранее оговоренная сумма заказа осталась неизменной, что радует. По коммуникации вопросов нет, Игорь всегда на связи и утром и вечером.
+                            </span>
+                        </div>
+                    <div class="under-conteiner rotate-otziv-3" id="under-conteiner-3">
+                        <img alt="человек который оставил отзыв" src="fonts/icon-otziv-3.png" class="icon-otziv-3"/>
+                        <span class="name-otziv">Денис Кузнецов</span>
+                        <div class="line-otziv"></div>
+                        <span class="otziv-text">
+                                Приятный человек. Остался доволен сотрудничеством.
+                        </span>
+                    </div>
+                </div>
+                    <div class="bal-otziv">
+                        <div class="ocr-otziv bal-1"></div>
+                        <div class="ocr-otziv bal-2"></div>
+                        <div class="ocr-otziv bal-3"></div>
+                    </div>
+                       <div class="white-main-blocks">
+                        <div class="white-block float-white-right"></div>
+                        <div class="white-block float-white-left"></div>
+                       </div>
+                  </div>
+                </div>
             </div>
 
 
@@ -243,8 +283,28 @@
                 $("#adaptivBtn").html("Выбрать пункт");
                 sumDate(0,0,0,0,0,0,0,0,1);
                 sumPrice(0,0,0,0,0,0,0,0,1);
-
             });
+            var time=0;
+            var timer_1=setInterval(function(){
+                if(time==0){
+                        $(".bal-1").css({"background":"#969696"});
+                        $(".bal-2").css({"background":"#4a4a4a"});
+                    $("#under-conteiner-1").animate(function(){
+                    },1000);
+                }
+                if(time==1){
+                        $(".bal-2").css({"background":"#969696"});
+                        $(".bal-3").css({"background":"#4a4a4a"});
+
+                }
+                if(time==2){
+                        $(".bal-3").css({"background":"#969696"});
+                        $(".bal-1").css({"background":"#4a4a4a"});
+
+                    time=-1;
+                }
+                time++;
+            },9000);
         });
         function sumDate(a,s,d,f,h,j,z,x,clear_1){
             if(a!=0&&s==0&&d==0&&f==0&&h==0&&j==0&&z==0&&x==0&&clear_1==0)
