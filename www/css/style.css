@@ -382,144 +382,147 @@ a span{
     margin-left: -145px;
     margin-top: 35px;
 }
-.stat{
-    font-family: sans-serif;
-    font-size: 27px;
-    font-weight: bold;
-    margin-top: 120px !important;
-}
-.conteiner-stat{
-    height: 200px;
+.main-regist{
+    width: 119%;
+    height: 200vh;
+    background: #4b4b4b;
+    margin-left: -112px;
+    margin-top: 140px;
     position: relative;
-    top: -20px;
-    z-index: 1;
+
+}
+.h-regist{
     display: flex;
-    justify-content:space-between;
-}
-.stat-block{
-    position: relative;
-    height: 100%;
-    width: 20%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
     font-family: sans-serif;
-}
-.icon-stat{
-    margin-top: 10px;
-    margin-bottom: 15px;
-}
-.number-stat{
-    font-size: 25px;
+    font-size: 37px;
     font-weight: bold;
-    margin-bottom: 5px;
+    color: #fff;
 }
-.text-stat{
-    font-size: 16px;
-    font-weight: 500;
-    text-align: center;
-}
-.h-otziv{
-    font-family: sans-serif;
-    font-size: 27px;
-    font-weight: bold;
-    margin-top: 70px;
-    margin-bottom: 40px;
-}
-.container-otziv{
-    width: 100%;
-    height: 45vh;
+.main-cont{
+    margin-top: 65px;
+    width:100%;
     display: flex;
     justify-content: center;
 }
-.under-conteiner{
-    position: absolute;
-    top: 0px;
-    padding-top: 20px;
-    width: 340px;
-    height: 100%;
+.container-conect{
+    height: 85px;
+    width: 56%;
+    display: inline-flex;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.icon-social-block{
+    display: inline-flex;
+    width: 195px;
+    height: 85px;
+    justify-content: space-between;
+}
+.icon-social{
+    width: 85px;
+    height: 85px;
+}
+.mail-block{
+    height: 85px;
+    width: 200px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-left: 360px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    pointer-events: none;
 }
-.line-otziv{
-    border: 1px solid silver;
-    height: 1px;
-    width: 100px;
-    margin-bottom: 50px;
-}
-.name-otziv{
-    font-family: sans-serif;
-    font-weight: 600;
-    font-size: 23px;
-    margin-top: 12px;
-}
-.rotate-otziv-1{
-    /*position: relative;
-    left: 454px;*/
-}
-.rotate-otziv-2{
-    /*position: relative;
-    left: 460px;*/
-}
-.rotate-otziv-3{
-    /*position: relative;
-    left: 0px;*/
-}
-.otziv-text{
-    font-size: 18px;
-    font-weight: 600;
-}
-.icon-otziv-1{
-    height: 21%;
-    width: 18%;
-}
-.icon-otziv-2{
-    height: 21%;
-    width: 17%;
-}
-.icon-otziv-3{
-    height: 21%;
-    width: 17%;
-}
-.bal-otziv{
+.form-serv{
     margin-top: 70px;
+    width: 100%;
+    display: flex;
 }
-.ocr-otziv{
-    display: inline-block;
-    height: 15px;
-    width: 15px;
-    border-radius: 50%;
-    margin-left: 6px;
+.form-style{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
-.bal-1{
-    background: #4a4a4a;
+.pole-block-top{
+    width: 960px;
+    display: inline-flex;
+    justify-content: space-between;
 }
-.bal-2{
-    background: #969696;
+.messeg{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.bal-3{
-    background: #969696;
+.input{
+    width: 384px;
+    height: 51px;
+    background: rgba(255, 255, 255, 0);
+    border: 0;
+    outline: none;
+    border-bottom: 4px solid silver;
+    border-radius: 3px;
+    font-size: 27px;
 }
-.float-white-right{
-    float: right;
+.input::placeholder{
+    font-size: 30px;
+    color: #a8a8a8;
 }
-.float-white-left{
-    float: left;
+.textarea-regist{
+    height: 180px;
+    width: 960px;
+    resize: none;
+    background: rgba(255, 255, 255, 0);
+    color: #fff;
+    border: 2px solid silver;
+    outline: none;
+    font-size: 27px;
 }
-.white-block{
-    height: 60vh;
-    width: 30%;
+.textarea-regist::placeholder{
+    color: #a8a8a8;
+    font-size: 30px;
+}
+.input-form-comlete{
+    margin-top: 60px;
+    height: 50px;
+    width: 210px;
+    background: rgba(255, 255, 255, 0);
+    border: 2px solid #000;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+.input-form-comlete span{
+    position: relative;
+    z-index: 1;
+    top: 7px;
+    left: 28px;
+}
+.animate-complete{
+    margin-left: 0px;
+    position: relative;
+    left: -2px;
+    top: -31px;
+    background: #000;
+    height: 49px;
+    width: 0px;
+    transition: 1s;
+}
+.inputTextDown-regist{
+    color: #000;
+}
+.inputDown-regist{
     background: #fff;
 }
-.white-main-blocks{
-    position: relative;
-    top: -470px;
-    z-index: -2;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+.down-butun-regist{
+    margin-top: 150px;
+    margin-left: -180px;
+    width: 300px;
 }
 @media (max-width: 400px){
         .inputDown{
@@ -621,7 +624,74 @@ a span{
     margin-top: -12px;
     }
 }
-@media (max-width: 481px){
+@media (max-width: 470px){
+    .inputDown{
+        left: 32%;
+    }
+    .form-style{
+        width: 97%;
+    }
+    .inputTextDown-regist{
+        left: 45% !important;
+    }
+    .h-regist{
+        width: 95%;
+        font-size: 27px;
+    }
+    .textarea-regist::placeholder{
+        font-size: 23px;
+    }
+    .textarea-regist{
+        margin-top: 40px;
+        width: 270px;
+        font-size: 20px;
+    }
+    .pole-block-top{
+        margin-top: 10px;
+        width: 450px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .input::placeholder{
+        font-size: 21px;
+    }
+    .input{
+        width: 268px;
+        height: 45px;
+        font-size: 19px;
+        margin-top: 25px;
+    }
+    .container-conect{
+        display: flex;
+        flex-direction: column;
+        width: 44%;
+    }
+    .inst{
+        float: right;
+    }
+    .mail-block{
+        margin-top: 30px;
+        font-size: 20px;
+        margin-left: -4px;
+    }
+    .icon-social-block{
+        width: 175px;
+    }
+    .icon-social{
+        width: 69px;
+        height: 69px;
+    }
+    .main-cont{
+        width: 112%;
+    }
+.main-regist{
+        margin-left: -79px;
+        width: 155%;
+    }
+.down-butun-regist{
+    margin-top: 0px;
+    margin-left: -100px;
+}
     .img-exemple-case{
         width: 80%;
         margin-bottom: 60px;
@@ -708,6 +778,14 @@ a span{
     }
 }
 @media (min-width:1200px) and (max-width:1400px){
+    .main-regist{
+        margin-left: -132px;
+        width: 129%;
+    }
+    .down-butun-regist{
+    margin-top: 160px;
+    margin-left: -90px;
+}
     .null{
         margin-left: 69%;
     }
@@ -743,6 +821,17 @@ a span{
     }
 }
 @media (min-width:991px) and (max-width:1200px){
+    .container-conect{
+        width: 63%;
+    }
+    .main-regist{
+        margin-left: -132px;
+        width: 129%;
+    }
+.down-butun-regist{
+    margin-top: 160px;
+    margin-left: 50px;
+}
     .h-case{
         margin-top: 70px;
     }
@@ -816,6 +905,60 @@ a span{
     }
 }
 @media (min-width: 470px) and (max-width: 768px){
+    .inputTextDown-regist{
+        left: 41% !important;
+    }
+    .h-regist{
+        font-size: 27px;
+    }
+    .textarea-regist::placeholder{
+        font-size: 25px;
+    }
+    .textarea-regist{
+        margin-top: 40px;
+        width: 400px;
+        font-size: 22px;
+    }
+    .pole-block-top{
+        margin-top: -50px;
+        width: 450px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .input::placeholder{
+        font-size: 23px;
+    }
+    .input{
+        width: 340px;
+        height: 45px;
+        font-size: 24px;
+        margin-top: 40px;
+    }
+    .container-conect{
+        width: 64%;
+    }
+    .inst{
+        float: right;
+    }
+    .mail-block{
+        font-size: 20px;
+        margin-left: 98px;
+    }
+    .icon-social{
+        width: 69px;
+        height: 69px;
+    }
+    .main-cont{
+        width: 100%;
+    }
+.main-regist{
+        margin-left: -132px;
+        width: 155%;
+    }
+.down-butun-regist{
+    margin-top: 0px;
+    margin-left: -100px;
+}
     .img-exemple-case{
         width: 80%;
         margin-bottom: 60px;
@@ -893,8 +1036,9 @@ a span{
     top: 30px;
 }
 .inputDown:hover{
-    left: 110px; /*разница в позиционировании 48*/
-    width: 310px;
+    left: 30%;
+    top: 30px;
+    width: 210px;
 }
 .inputTextDown{
     top: 72px;
@@ -928,6 +1072,49 @@ a span{
     }
 }
 @media (min-width:768px) and (max-width:991px){
+    .textarea-regist::placeholder{
+        font-size: 25px;
+    }
+    .textarea-regist{
+        width: 700px;
+        font-size: 23px;
+    }
+    .pole-block-top{
+        width: 705px;
+    }
+    .input::placeholder{
+        font-size: 25px;
+    }
+    .input{
+        width: 320px;
+        height: 45px;
+        font-size: 23px;
+    }
+    .container-conect{
+        width: 69%;
+    }
+    .inst{
+        float: right;
+    }
+    .mail-block{
+        font-size: 22px;
+        margin-left: 300px;
+    }
+    .icon-social{
+        width: 75px;
+        height: 75px;
+    }
+    .main-cont{
+        width: 100%;
+    }
+.main-regist{
+        margin-left: -132px;
+        width: 140%;
+    }
+.down-butun-regist{
+    margin-top: 0px;
+    margin-left: -400px;
+}
     .img-exemple-case{
         width: 65%;
         margin-bottom: 100px;
@@ -1005,9 +1192,8 @@ a span{
     top: 30px;
 }
 .inputDown:hover{
-    transition-duration: 0.5s;
-    left: 183px; /*разница в позиционировании 48*/
-    width: 310px;
+    left: 222px;
+    width: 260px;
 }
 .inputTextDown{
     font-size: 20px;
