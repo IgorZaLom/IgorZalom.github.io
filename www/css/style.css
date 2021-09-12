@@ -625,14 +625,11 @@ a span{
     }
 }
 @media (max-width: 470px){
-    .inputDown{
-        left: 32%;
-    }
     .form-style{
         width: 97%;
     }
     .inputTextDown-regist{
-        left: 45% !important;
+        left: 39% !important;
     }
     .h-regist{
         width: 95%;
@@ -690,7 +687,7 @@ a span{
     }
 .down-butun-regist{
     margin-top: 0px;
-    margin-left: -100px;
+    margin-left: -45px;
 }
     .img-exemple-case{
         width: 80%;
