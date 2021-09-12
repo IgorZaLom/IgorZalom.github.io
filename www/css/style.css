@@ -384,7 +384,7 @@ a span{
 }
 .main-regist{
     width: 119%;
-    height: 200vh;
+    height: 120vh;
     background: #4b4b4b;
     margin-left: -112px;
     margin-top: 140px;
@@ -682,6 +682,7 @@ a span{
         width: 112%;
     }
 .main-regist{
+    height: 90vh;
         margin-left: -79px;
         width: 155%;
     }
@@ -776,6 +777,7 @@ a span{
 }
 @media (min-width:1200px) and (max-width:1400px){
     .main-regist{
+        height: 90vh;
         margin-left: -132px;
         width: 129%;
     }
@@ -822,6 +824,7 @@ a span{
         width: 63%;
     }
     .main-regist{
+        height: 85vh;
         margin-left: -132px;
         width: 129%;
     }
@@ -949,6 +952,7 @@ a span{
         width: 100%;
     }
 .main-regist{
+    height: 90vh;
         margin-left: -132px;
         width: 155%;
     }
