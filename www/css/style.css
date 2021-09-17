@@ -201,16 +201,8 @@ a span{
     left: -60px;
     background: url("../fonts/checkmark%202.png") no-repeat;
 }
-.calc-fon{
-    position: relative;
-    margin-top: 150px;
-    margin-left: -140px;
-    width: 124%;
-    height: 90%;
-    z-index: -2;
-}
 .type-btn-calc{
-    margin-top: -750px;
+    margin-top: 280px;
     margin-left: 60px;
     margin-bottom: 30px;
 }
@@ -229,7 +221,7 @@ a span{
     margin-bottom: 13px;
 }
 .btn-calc{
-    width: 80%;
+    width: 76%;
     height: 40px;
     background: #727272 !important;
     text-align: left;
@@ -242,7 +234,8 @@ a span{
     background: #5f5f5f !important;
 }
 .dropdown-menu{
-    width: 80%;
+    z-index: 1 !important;
+    width: 76%;
     background: #727272 !important;
 }
 .menu-type{
@@ -302,11 +295,11 @@ a span{
     font-weight: bold;
 }
 .null{
-    margin-left: 70%;
+    margin-left: 67%;
 }
 .btn-clear{
+    margin-left: -322px;
     margin-top: 20px;
-    margin-left: 400px;
 }
 .visited-btn{
     padding-left: 30px;
@@ -319,8 +312,9 @@ a span{
     font-weight: 400;
     color: #fff;
 }
-.visited-btn span{
+.clear-text{
     pointer-events: none;
+    color: #000000;
 }
 .animeit-btn{
     position: relative;
@@ -336,6 +330,19 @@ a span{
 .visited-btn:hover .animeit-btn{
     margin-left: 0px;
     width: 140px;
+}
+.visited-btn:hover .clear-text{
+    color: #fff;
+}
+.h-calc{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: -270px;
+    margin-top: 190px !important;
 }
 .calculait{
     margin-top: -270px !important;
@@ -384,12 +391,15 @@ a span{
 }
 .main-regist{
     width: 119%;
-    height: 120vh;
+    height: 900px;
     background: #4b4b4b;
     margin-left: -112px;
-    margin-top: 140px;
+    margin-top:-380px;
     position: relative;
-
+}
+.center-press-clear{
+    display: flex;
+    justify-content: center;
 }
 .h-regist{
     display: flex;
@@ -400,7 +410,7 @@ a span{
     font-weight: bold;
     color: #fff;
 }
-.main-cont{
+.main-cont {
     margin-top: 65px;
     width:100%;
     display: flex;
@@ -524,6 +534,90 @@ a span{
     margin-left: -180px;
     width: 300px;
 }
+.h-stat{
+    position: relative;
+    top: -430px;
+    color: #000000;
+    font-size: 27px;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 570px;
+}
+.statist-glob{
+    position: relative;
+    top: -430px;
+    width: 118%;
+    height: 200px;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: -112px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.fon-stat{
+    width: 119%;
+    height: 300px;
+    position: relative;
+    top: 210px;
+    margin-left: -112px;
+    z-index: -1;
+}
+.stat-1{
+    width: 59%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.stat-2{
+    width: 59%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.stat-block{
+    color: #000;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+.stat-block i{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 70px;
+}
+.stat-block span{
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.pos{
+    position: relative;
+    z-index: 100;
+    top: -379px;
+    width: 200%;
+    height: 17px;
+    margin-left: -112px;
+    background: linear-gradient(to top,#4b4b4b,#fff);
+}
+@media (max-width: 380px){
+    .cont-stat-4 span {
+    margin-top: 25px !important;
+    }
+    .cont-stat-4 i{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 303px){
+    .cont-stat-1 span {
+    margin-top: 10px !important;
+    }
+}
 @media (max-width: 400px){
         .inputDown{
     left: 26%;
@@ -578,6 +672,12 @@ a span{
     }
 }
 @media (min-width: 400px) and (max-width: 470px){
+    .down-butun-regist{
+        margin-left: -115px !important;
+    }
+    .inputTextDown-regist{
+        left: 50% !important;
+    }
     .inputDown{
     left: 115px;
     top: 10px;
@@ -625,11 +725,47 @@ a span{
     }
 }
 @media (max-width: 470px){
+    .stat-block span{
+        font-size: 28px;
+    }
+    .cont-stat-1 span{
+        margin-top: 37px;
+    }
+    .cont-stat-4 span{
+        margin-top: 10px;
+    }
+    .stat-block{
+        font-size: 17px;
+    }
+    .stat-block i{
+        font-size: 55px;
+    }
+    .stat-1{
+        width: 69%;
+    }
+    .stat-2{
+        width: 69%;
+        margin-top: 40px;
+    }
+    .h-stat{
+        margin-top: 490px;
+    }
+    .statist-glob{
+        flex-direction: column;
+        width: 124%;
+        margin-left: -11%;
+        align-items: center;
+        margin-top: 70px;
+        margin-bottom: 210px;
+    }
     .form-style{
         width: 97%;
     }
+    .down-butun-regist{
+        margin-left: -115px;
+    }
     .inputTextDown-regist{
-        left: 39% !important;
+        left: 38%;
     }
     .h-regist{
         width: 95%;
@@ -682,7 +818,7 @@ a span{
         width: 112%;
     }
 .main-regist{
-    height: 90vh;
+    height: 135vh;
         margin-left: -79px;
         width: 155%;
     }
@@ -733,7 +869,7 @@ a span{
     }
     .btn-clear{
         margin-top: 30px;
-        margin-left: 0px;
+        margin-left: -101px;
     }
     .date{
         margin-left: -61px;
@@ -762,7 +898,7 @@ a span{
         height: 126%;
     }
     .type-btn-calc{
-        margin-top: -330px;
+        margin-top: 270px;
         margin-left: -35px;
     }
     .design-btn-calc{
@@ -777,7 +913,7 @@ a span{
 }
 @media (min-width:1200px) and (max-width:1400px){
     .main-regist{
-        height: 90vh;
+        height: 900px;
         margin-left: -132px;
         width: 129%;
     }
@@ -820,6 +956,16 @@ a span{
     }
 }
 @media (min-width:991px) and (max-width:1200px){
+    .statist-glob{
+        width: 110%;
+        margin-left: -44px;
+    }
+    stat-block spa{
+        font-size: 33px;
+    }
+    .stat-block{
+        font-size: 22px;
+    }
     .container-conect{
         width: 63%;
     }
@@ -842,13 +988,16 @@ a span{
         margin-left: -28px;
     }
     .null{
-        margin-left: 68%;
+        margin-left: 64%;
     }
     .btn-clear{
-        margin-left: 245px;
+        margin-left: -215px;
+    }
+    .pos{
+        margin-left: -140px;
     }
     .type-btn-calc{
-        margin-top: -580px;
+        margin-top: 290px;
         margin-left: 30px;
     }
     .design-btn-calc{
@@ -884,6 +1033,9 @@ a span{
     }
 }
 @media (max-width: 768px){
+    .clear-text{
+        color: #fff;
+    }
     .visited-btn{
         background: black;
     }
@@ -905,6 +1057,30 @@ a span{
     }
 }
 @media (min-width: 470px) and (max-width: 768px){
+    .stat-block{
+        font-size: 19px;
+    }
+    .stat-block i{
+        font-size: 62px;
+    }
+    .stat-1{
+        width: 79%;
+    }
+    .stat-2{
+        width: 79%;
+        margin-top: 40px;
+    }
+    .h-stat{
+        margin-top: 490px;
+    }
+    .statist-glob{
+        flex-direction: column;
+        width: 144%;
+        margin-left: -102px;
+        align-items: center;
+        margin-top: 70px;
+        margin-bottom: 210px;
+    }
     .inputTextDown-regist{
         left: 41% !important;
     }
@@ -952,7 +1128,7 @@ a span{
         width: 100%;
     }
 .main-regist{
-    height: 90vh;
+    height: 140vh;
         margin-left: -132px;
         width: 155%;
     }
@@ -994,7 +1170,7 @@ a span{
         width: 100%;
     }
     .btn-clear{
-        margin-left: 60px;
+        margin-left: -102px;
     }
     .date{
         margin-left: -50px;
@@ -1023,7 +1199,7 @@ a span{
         height: 126%;
     }
     .type-btn-calc{
-        margin-top: -330px;
+        margin-top: 270px;
         margin-left: -35px;
     }
     .design-btn-calc{
@@ -1073,6 +1249,29 @@ a span{
     }
 }
 @media (min-width:768px) and (max-width:991px){
+    .h-stat{
+        margin-top: 505px;
+    }
+    .stat-1{
+        width: 72%;
+    }
+    .stat-2{
+        width: 72%;
+    }
+    .stat-block span{
+        font-size: 31px;
+    }
+    .stat-block i{
+    font-size: 66px;
+    }
+    .stat-block{
+        font-size: 18px;
+    }
+    .statist-glob{
+        margin-top: 80px;
+        margin-left: -67px;
+        width: 118%
+    }
     .textarea-regist::placeholder{
         font-size: 25px;
     }
@@ -1109,8 +1308,8 @@ a span{
         width: 100%;
     }
 .main-regist{
-        margin-left: -132px;
-        width: 140%;
+        margin-left: -142px;
+        width: 141%;
     }
 .down-butun-regist{
     margin-top: 0px;
@@ -1140,7 +1339,10 @@ a span{
         margin-top: 70px;
     }
     .btn-clear{
-        margin-left: 200px;
+        margin-left: -30px;
+    }
+    .pos{
+        margin-left: -160px;
     }
     .icon-calc{
         margin-left: 93%;
@@ -1162,7 +1364,7 @@ a span{
     }
     .type-btn-calc{
         margin-left: 30px;
-        margin-top: -510px;
+        margin-top: 270px;
     }
     .design-btn-calc{
         margin-left: 30px;
