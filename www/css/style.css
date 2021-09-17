@@ -605,7 +605,7 @@ a span{
     margin-left: -112px;
     background: linear-gradient(to top,#4b4b4b,#fff);
 }
-@media (max-width: 380px){
+@media (min-width: 337px) and (max-width: 381px){
     .cont-stat-4 span {
     margin-top: 25px !important;
     }
@@ -616,6 +616,11 @@ a span{
 @media (max-width: 303px){
     .cont-stat-1 span {
     margin-top: 10px !important;
+    }
+}
+@media (max-width: 470px) and (min-width: 301px){
+    .cont-stat-1 i{
+        margin-bottom: 20px !important;
     }
 }
 @media (max-width: 400px){
@@ -729,7 +734,7 @@ a span{
         font-size: 28px;
     }
     .cont-stat-1 span{
-        margin-top: 37px;
+        margin-top: 26px;
     }
     .cont-stat-4 span{
         margin-top: 10px;
