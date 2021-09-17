@@ -613,6 +613,12 @@ a span{
         margin-bottom: 20px;
     }
 }
+@media (max-width: 338px){
+    .cont-stat-4 span {
+    position: absolute;
+        top: 344px;
+    }
+}
 @media (max-width: 303px){
     .cont-stat-1 span {
     margin-top: 10px !important;
