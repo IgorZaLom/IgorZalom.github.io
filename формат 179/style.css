@@ -1,0 +1,1031 @@
+html{
+    overflow-x: hidden;
+}
+header{
+    width: 101%;
+    height: 1009px;
+    margin-left: -9px;
+    margin-top: -9px;
+    background: #2c2c2c;
+    display: flex;
+    justify-content: center;
+}
+.cover-block{
+    margin-top: 20px;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+}
+.lable{
+    margin-top: 75px;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 450px;
+    position: ;
+}
+.fon{
+   margin-left: -681px;
+}
+.line-h{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #009d00;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+}
+.announcement-and-picter{
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.announcement{
+    padding: 20px;
+    width: 35%;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.picter-fon{
+    width: 65%;
+    height: 750px;
+}
+.header-picter-fon{
+    width: 100%;
+    height: 620px;
+}
+.under-h{
+    width: 99%;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: right;
+}
+.line{
+    margin-top: 20px;
+    height: 3px;
+    background-color: #B5B5B5;
+    width: 100%; 
+}
+.border{
+    width: 101%;
+    height: 35px;
+    background: linear-gradient(to top,#939393, #262a33);
+    margin-left: -9px;
+}
+.content{
+    width: 101%;
+    height: 970px;
+    margin-left: -9px;
+    margin-top: -1px;
+    display: flex;
+     align-content: space-between;
+}
+.content-side{
+    width: 50.5%;
+    height: 900px;
+    
+}
+.block-news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name-line{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 55px;
+    margin-top: 30px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #5cb15c;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.decor-under-line{
+    width: 230px;
+    height: 5px;
+    background: green;
+}
+.main-internal-content{
+    display: inline-flex;
+    align-content: space-between;
+    margin-top: 50px;
+    width: 100%;
+    height: 700px;
+}
+.internal-content{
+    width: 50%;
+    height: 800px;    
+}
+.text{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.picter{
+    width: 92%;
+    margin-left: 17px;
+}
+.mex{
+    height: 400px;
+    margin-bottom: 5px;
+}
+.kvn{
+    height: 310px;
+}
+.dance{
+    height: 320px;
+}
+.energy{
+    height: 320px;
+}
+.column-red{
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    border: 2px solid black;
+}
+.red{
+    font-weight: bold;
+}
+.down-once{
+    margin-top: 90px;
+}
+.none{
+    display: none !important;
+}
+.block{
+    display: flex !important;
+}
+.vol{
+    margin-top: 2000px;
+    width: 200%;
+    display: flex;
+    justify-content: center;
+    font-size: 34px !important;
+}
+.cakka{
+    height: 240px;
+}
+.inside-content{
+    width: 50%;
+}
+.main-content-inside{
+    display: flex;
+    justify-content: space-between;
+    width: 200%;
+}
+.main-content-inside-once{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+.pract{
+     margin-top: 50px;
+    width: 200%;
+    display: flex;
+    justify-content: center;
+    margin-left: -99%;
+    font-size: 34px !important;
+}
+.mechka{
+    height: 250px;
+}
+.position-addapt{
+    margin-left: -11%;
+}
+.table-smart{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.table-smart td{
+    border: 2px solid black;
+}
+.table-smart th{
+    border: 2px solid black;
+    background-color: #1dc5db;
+}
+.block-b{
+    display: block !important;
+}
+ .none-b{
+    display: none !important;
+}
+.center{
+    display: flex;
+  justify-content: center;
+}
+.once-content {
+    margin-top: 10%;
+    width: 402%;
+    height: 1690px;
+    margin-left: -294%;
+    display: flex;
+    justify-content: space-between;
+}
+.once-content-down{
+    margin-top: 10%;
+    width: 100%;
+    height: 1690px;
+    margin-left: -178%;
+    display: flex;
+    justify-content: space-between
+}
+.once{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 100px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #5cb15c;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.column-block-once{
+    display: flex;
+    flex-direction: column;
+    width: 69%;
+}
+.column-block{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 473%;
+}
+.top{
+    margin-top: 70%;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px !important;
+}
+.cat{
+    height: 330px;
+}
+.h-st{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.mr-left{
+    margin-left: 8%;
+}
+.once-dop{
+    width: 202%;
+    justify-content: center;
+    text-align: center;
+    margin-left: -99%;
+}
+.top-dop{
+    margin-top: 100% !important;
+}
+.book{
+    height: 480px;
+}
+.film{
+    height: 310px;
+}
+.film-s{
+    height: 370px;
+}
+.bg{
+    width: 600%;
+    height: 1100px;
+    background: #2c2c2c;
+    margin-top: 130%;
+    margin-left: -440%;
+    justify-content: center;
+}
+.end{
+    margin-top: 6%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 45%;
+    height: 900px;
+    background: #fff;
+}
+.end-pic{
+    width: 90%;
+    height: 400px;
+}
+.end-text{
+    width: 80%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    border: 3px solid #2ba22b;
+    border-radius: 10%;
+    padding: 24px;
+    margin-top: 110px;
+    line-height: 29px;
+}
+.bg-none{
+    width: 310%;
+    height: 1220px;
+    background: #2c2c2c;
+    margin-top: 130%;
+    margin-left: -150%;
+    justify-content: center;
+}
+@media (max-width: 2600px) and (min-width: 2000px){
+    .bg{
+        margin-top:3%;
+    }
+    .end{
+        width: 40%;
+    }
+    .top-dop{
+    margin-top: 98% !important;
+    }
+}
+@media (max-width: 2000px) and (min-width: 1800px){
+    .top {
+    margin-top: 0%;
+}
+}
+@media (max-width: 1800px) and (min-width: 1600px){
+    .bg{
+        margin-top:130%;
+    }
+    .end{
+        width: 50%;
+        height: 1000px;
+    }
+    .top-dop{
+    margin-top: 204% !important;
+}
+    .once{
+        margin-bottom: 4%;
+    }
+    .top{
+    margin-top: 0%;
+}
+    .column-block{
+    height: 443%;
+    }
+}
+@media (max-width: 1500px) and (min-width: 1350px){
+    .end{
+        width: 50%;
+        height: 1000px;
+    }
+    .bg{
+        margin-top:220%;
+    }
+    .film{
+    height: 290px;
+}
+.film-s{
+    height: 320px;
+}
+       .top-dop{
+    margin-top: 250% !important;
+}
+    .once{
+        font-size: 29px;
+    }
+       .cat{
+    height: 230px;
+}
+    .top{
+    margin-top: 100%;
+}
+    .column-block{
+    height: 443%;
+    }
+}
+@media (max-width: 1350px) and (min-width: 1050px){
+    .end{
+        width: 50%;
+        height: 1000px;
+    }
+    .bg{
+        margin-top: 189%;
+    }
+       .film{
+    height: 250px;
+}
+.film-s{
+    height: 270px;
+}
+    .book{
+    height: 350px;
+}
+        .top-dop{
+    margin-top: 287% !important;
+}
+    .center{
+        font-size: 25px !important;
+    }
+    .cat{
+    height: 200px;
+}
+        .top{
+    margin-top: 100%;
+}
+    .column-block{
+    height: 443%;
+    }
+
+    .once{
+        font-size: 26px;
+    }
+    .mechka{
+    height: 220px;
+}
+    .cakka{
+    height: 230px;
+}
+    .line-h{
+        font-size: 25px;
+    }
+    .under-h{
+        font-size: 25px;
+    }
+    header {
+    height: 949px
+    }
+    .header-picter-fon {
+    height: 560px;
+}
+    .announcement{
+        font-size: 18px;
+    }
+    .text{
+        font-size: 17px; 
+    }
+    .mex{
+    height: 300px;
+    }
+    .kvn{
+        height: 230px;
+    }
+    .dance{
+        height: 230px;
+    }
+    .energy{
+        height: 260px;
+    }
+    .column-red{
+        margin-top: 20px;
+        font-size: 27px;
+    }
+}
+@media (max-width: 1050px) and (min-width: 800px){
+.end{
+        width: 55%;
+        height: 1100px;
+    }
+.bg{
+        height: 1200px;
+        margin-top: 181%;
+    }
+.film{
+    height: 190px;
+}
+.film-s{
+    height: 230px;
+}
+      .book{
+    height: 320px;
+}
+           .top-dop{
+    margin-top: 327% !important;
+}
+    .center{
+        font-size: 25px !important;
+    }
+     .cat{
+    height: 200px;
+}
+    .once{
+        margin-bottom: 7%;
+        font-size: 25px;
+    }
+       .cakka{
+    height: 190px;
+}
+    .mechka{
+    height: 200px;
+}
+    .pract{
+        font-size: 25px !important
+    }
+    .vol{
+        font-size: 25px !important;
+         margin-top: 160px !important;
+    }
+    .line-h{
+        font-size: 22px;
+    }
+    .under-h{
+        font-size: 22px;
+    }
+    header {
+    height: 833px
+    }
+    .header-picter-fon {
+    height: 460px;
+}
+    .announcement{
+        font-size: 14px;
+    }
+    .text{
+        font-size: 16px; 
+    }
+    .mex{
+    height: 210px;
+    }
+    .kvn{
+        height: 180px;
+    }
+    .dance{
+        height: 200px;
+    }
+    .energy{
+        height: 200px;
+    }
+    .column-red{
+        margin-top: 20px;
+        font-size: 24px;
+    }
+}
+@media (max-width: 920px){
+     .none-b{
+    display: block !important;
+}
+    .block-b{
+    display: none !important;
+}
+    .main-content-inside{
+        margin-left: -99%;
+    }
+    .content-side{
+        width: 100%;
+    }
+    .none{
+        display: flex !important;
+    }
+    .block{
+        display: none !important;
+    }
+    .content{
+        flex-direction: column;
+        display: block;
+    }
+    .content-side{
+        margin-bottom: 160px;
+    }
+    .column-red{
+        margin-top: 70px;
+    }
+    .energy{
+        margin-top: 50px;
+    }
+    .vol{
+    margin-top: 70px;
+    width: 201%;
+   margin-left: -99%;
+}
+}
+@media (max-width: 920px) and (min-width: 800px){
+    .end{
+        width: 55%;
+        height: 1100px;
+    }
+.bg-none{
+       margin-top: 10%;
+    }
+    .film{
+    height: 320px !important;
+}
+.film-s{
+    height: 330px !important;
+}
+       .book{
+    height: 450px !important;
+}
+     .cat{
+    height: 240px;
+}
+    .cakka{
+    height: 240px;
+}
+     .mechka{
+    height: 260px;
+}
+    .pract{
+        font-size: 33px !important
+    }
+    .vol{
+    font-size: 33px !important;
+    }
+    .kvn{
+        height: 250px !important;
+    }
+    .dance{
+        height: 260px !important;
+    }
+    .energy{
+        height: 250px !important;
+    }
+    .mex{
+    height: 350px !important;
+    }
+}
+@media (max-width: 800px) and (min-width: 600px){
+    .end-text{
+        font-size: 14px;
+    }
+    .end{
+        width: 65%;
+        height: 1100px;
+    }
+.bg-none{
+       margin-top: 50%;
+    }
+.film{
+    height: 240px !important;
+}
+.film-s{
+    height: 290px !important;
+}
+        .book{
+    height: 370px;
+}
+    .once{
+        font-size: 28px;
+    }
+    .center{
+        font-size: 24px !important;
+    }
+     .cat{
+    height: 230px;
+}
+    .pract{
+        font-size: 28px !important
+    }
+    .vol{
+        font-size: 28px !important;
+    }
+    .content-side{
+       margin-bottom: 250px; 
+    }
+    .line-h{
+        height: 60px;
+    }
+    .announcement-and-picter{
+        margin-top: 20px;
+    }
+    .line-h{
+        font-size: 16px;
+    }
+    .under-h{
+        margin-top: 30px;
+        font-size: 16px;
+    }
+    header {
+    height: 695px
+    }
+    .header-picter-fon {
+    margin-top: 35px;
+    height: 330px;
+}
+    .announcement{
+        font-size: 12px;
+    }
+    .name-line{
+        font-size: 40px;
+    }
+    .decor-under-line {
+    width: 170px;
+    }
+    .text{
+        font-size: 15px; 
+    }
+    .mex{
+    height: 350px;
+    }
+    .kvn{
+        height: 270px;
+    }
+    .dance{
+        height: 250px;
+    }
+    .energy{
+        height: 250px;
+    }
+    .column-red{
+        font-size: 24px;
+    }
+}
+@media (max-width: 600px) and (min-width: 450px){
+    .bg-none{
+      margin-top: 20%;  
+    }
+    .end-text{
+        font-size: 13px;
+    }
+    .end{
+        width: 75%;
+        height: 1100px;
+    }
+.film{
+    height: 180px !important;
+}
+.film-s{
+    height: 230px !important;
+}
+         .book{
+    height: 300px;
+}
+    .once{
+        font-size: 25px;
+    }
+    .center{
+        font-size: 21px !important;
+    }
+     .cat{
+    height: 170px;
+}
+     .mechka{
+    height: 200px;
+}
+    .cakka{
+        height: 200px;
+    }
+    .pract{
+        font-size: 24px !important
+    }
+    .vol{
+        font-size: 24px !important;
+    }
+    .content-side{
+       margin-bottom: 250px; 
+    }
+    .line-h{
+        height: 60px;
+    }
+    .announcement-and-picter{
+        margin-top: 20px;
+    }
+    .line-h{
+        margin-top: -50px;
+        font-size: 14px;
+    }
+    .under-h{
+        margin-top: 30px;
+        font-size: 12px;
+    }
+    header {
+    height: 565px
+    }
+    .header-picter-fon {
+    margin-top: 35px;
+    height: 250px;
+}
+    .announcement{
+        font-size: 10px;
+    }
+    .name-line{
+        font-size: 40px;
+    }
+    .decor-under-line {
+    width: 170px;
+    }
+    .text{
+        font-size: 14px; 
+    }
+    .mex{
+    height: 210px;
+    }
+    .kvn{
+        height: 210px;
+    }
+    .dance{
+        height: 180px;
+    }
+    .energy{
+        height: 180px;
+    }
+    .column-red{
+        font-size: 19px;
+    }
+}
+@media (max-width: 450px) and (min-width: 360px){
+    .bg-none{
+      margin-top: 20%;  
+    }
+    .end-text{
+        margin-top: 10%;
+        font-size: 10px;
+    }
+    .end{
+        width: 75%;
+        height: 1070px;
+    }
+    .film{
+    height: 150px !important;
+}
+.film-s{
+    height: 200px !important;
+}
+    .book{
+    height: 300px;
+}
+    .once{
+        font-size: 23px;
+    }
+    .center{
+        font-size: 19px !important;
+    }
+        .cat{
+    height: 150px;
+}
+     .mechka{
+    height: 170px;
+}
+    .pract{
+        font-size: 22px !important
+    }
+    .cakka{
+        height: 160px;
+    }
+    .vol{
+        font-size: 22px !important;
+    }
+    .content-side{
+       margin-bottom: 100px; 
+    }
+    .line-h{
+        height: 45px;
+    }
+    .announcement-and-picter{
+        margin-top: 20px;
+    }
+    .line-h{
+        margin-top: -50px;
+        font-size: 13px;
+    }
+    .under-h{
+        margin-top: 30px;
+        font-size: 10px;
+    }
+    header {
+    height: 565px
+    }
+    .header-picter-fon {
+    margin-top: 35px;
+    height: 250px;
+}
+    .announcement{
+        font-size: 10px;
+    }
+    .name-line{
+        font-size: 40px;
+    }
+    .decor-under-line {
+    width: 170px;
+    }
+    .text{
+        font-size: 12px; 
+    }
+    .mex{
+    height: 170px;
+    }
+    .kvn{
+        height: 130px;
+    }
+    .dance{
+        height: 150px;
+    }
+    .energy{
+        height: 140px;
+    }
+    .column-red{
+        font-size: 16px;
+    }
+}
+@media (max-width: 360px) and (min-width: 290px){
+    .bg-none{
+      margin-top: 20%;  
+    }
+    .end-text{
+        font-size: 9px;
+        margin-top: 11%;
+    }
+    .end{
+        width: 75%;
+        height: 1140px;
+    }
+    .cat{
+    height: 120px;
+}
+      .film{
+    height: 100px !important;
+}
+.film-s{
+    height: 170px !important;
+}
+            .book{
+    height: 230px;
+}
+    .once{
+        font-size: 18px;
+    }
+    .center{
+        font-size: 17px !important;
+    }
+     .mechka{
+    height: 150px;
+}
+    .pract{
+        font-size: 20px !important;
+    }
+    .cakka{
+        height: 150px;
+    }
+    .vol{
+        font-size: 20px !important;
+    }
+    .content-side{
+       margin-bottom: 40px; 
+    }
+    .line-h{
+        height: 60px;
+    }
+    .announcement-and-picter{
+        margin-top: 20px;
+    }
+    .line-h{
+        margin-top: -50px;
+        font-size: 12px;
+    }
+    .under-h{
+        margin-top: 30px;
+        font-size: 10px;
+    }
+    header {
+    height: 520px
+    }
+    .header-picter-fon {
+    margin-top: 35px;
+    height: 250px;
+}
+    .announcement{
+        font-size: 8px;
+    }
+    .name-line{
+        font-size: 30px;
+    }
+    .decor-under-line {
+    width: 140px;
+    }
+    .text{
+        font-size: 10px; 
+    }
+    .mex{
+    height: 170px;
+    }
+    .kvn{
+        height: 150px;
+    }
+    .dance{
+        height: 150px;
+    }
+    .energy{
+        height: 140px;
+    }
+    .column-red{
+        font-size: 16px;
+    }
+}
